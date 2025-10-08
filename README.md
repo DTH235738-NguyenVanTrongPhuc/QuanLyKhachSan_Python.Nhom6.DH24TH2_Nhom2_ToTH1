@@ -480,4 +480,4 @@ Chúng em xin chân thành cảm ơn:
 
 **📅 Cập nhật lần cuối: 08/10/2025**  
 **📍 Phiên bản: 1.0.0**  
-**🏫 Trường: [Tên Trường Đại Học]**
+**🏫 Trường:]Đại Học An Giang**
