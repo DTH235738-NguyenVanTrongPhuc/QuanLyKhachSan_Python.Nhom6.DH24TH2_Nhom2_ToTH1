@@ -1,7 +1,8 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from tkcalendar import DateEntry
-import sqlite3
+import psycopg2
+from psycopg2 import pool
 
 # ====== Hàm canh giữa cửa sổ ======
 def center_window(win, w=950, h=650):
@@ -13,40 +14,51 @@ def center_window(win, w=950, h=650):
 
 # ====== Kết nối và tạo CSDL ======
 def connect_db():
-    conn = sqlite3.connect("khachsan.db")
-    cur = conn.cursor()
+    try:
+        conn = psycopg2.connect(
+            host='ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech',
+            database='QuanLyKhachSan',
+            user='neondb_owner',
+            password='npg_8bJtYTkz9Eey',
+            sslmode='require'
+        )
+        cur = conn.cursor()
 
-    cur.execute('''CREATE TABLE IF NOT EXISTS nhanvien (
-                    maso TEXT PRIMARY KEY,
-                    holot TEXT,
-                    ten TEXT,
-                    phai TEXT,
-                    ngaysinh TEXT,
-                    chucvu TEXT
-                )''')
+        cur.execute('''CREATE TABLE IF NOT EXISTS nhanvien (
+                        maso VARCHAR(50) PRIMARY KEY,
+                        holot VARCHAR(100),
+                        ten VARCHAR(50),
+                        phai VARCHAR(10),
+                        ngaysinh DATE,
+                        chucvu VARCHAR(50)
+                    )''')
 
-    cur.execute('''CREATE TABLE IF NOT EXISTS khachhang (
-                    makh TEXT PRIMARY KEY,
-                    hoten TEXT,
-                    sdt TEXT,
-                    cmnd TEXT
-                )''')
+        cur.execute('''CREATE TABLE IF NOT EXISTS khachhang (
+                        makh VARCHAR(50) PRIMARY KEY,
+                        hoten VARCHAR(100),
+                        sdt VARCHAR(20),
+                        cmnd VARCHAR(20)
+                    )''')
 
-    cur.execute('''CREATE TABLE IF NOT EXISTS phong (
-                    maphong TEXT PRIMARY KEY,
-                    loaiphong TEXT,
-                    trangthai TEXT
-                )''')
+        cur.execute('''CREATE TABLE IF NOT EXISTS phong (
+                        maphong VARCHAR(50) PRIMARY KEY,
+                        loaiphong VARCHAR(50),
+                        trangthai VARCHAR(50),
+                        gia NUMERIC(10,2)
+                    )''')
 
-    cur.execute('''CREATE TABLE IF NOT EXISTS datphong (
-                    madat TEXT PRIMARY KEY,
-                    makh TEXT,
-                    maphong TEXT,
-                    ngaydat TEXT,
-                    ngaytra TEXT
-                )''')
-    conn.commit()
-    return conn
+        cur.execute('''CREATE TABLE IF NOT EXISTS datphong (
+                        madat VARCHAR(50) PRIMARY KEY,
+                        makh VARCHAR(50),
+                        maphong VARCHAR(50),
+                        ngaydat DATE,
+                        ngaytra DATE
+                    )''')
+        conn.commit()
+        return conn
+    except Exception as e:
+        messagebox.showerror("Lỗi kết nối", f"Không thể kết nối Neon:\n{str(e)}")
+        return None
 
 # ====== Cửa sổ chính ======
 root = tk.Tk()
@@ -125,7 +137,7 @@ def load_nv():
 def them_nv():
     try:
         cur = conn.cursor()
-        cur.execute("INSERT INTO nhanvien VALUES (?, ?, ?, ?, ?, ?)", (
+        cur.execute("INSERT INTO nhanvien VALUES (%s, %s, %s, %s, %s, %s)", (
             entry_maso.get(), entry_holot.get(), entry_ten.get(),
             gender_var.get(), date_entry.get(), cbb_chucvu.get()
         ))
@@ -138,7 +150,8 @@ def xoa_nv():
     sel = tree_nv.selection()
     if not sel: return
     maso = tree_nv.item(sel)["values"][0]
-    conn.execute("DELETE FROM nhanvien WHERE maso=?", (maso,))
+    cur = conn.cursor()
+    cur.execute("DELETE FROM nhanvien WHERE maso=%s", (maso,))
     conn.commit()
     load_nv()
 
@@ -157,7 +170,8 @@ def sua_nv():
     cbb_chucvu.set(v[5])
 
 def luu_nv():
-    conn.execute("""UPDATE nhanvien SET holot=?, ten=?, phai=?, ngaysinh=?, chucvu=? WHERE maso=?""",
+    cur = conn.cursor()
+    cur.execute("""UPDATE nhanvien SET holot=%s, ten=%s, phai=%s, ngaysinh=%s, chucvu=%s WHERE maso=%s""",
                  (entry_holot.get(), entry_ten.get(), gender_var.get(),
                   date_entry.get(), cbb_chucvu.get(), entry_maso.get()))
     conn.commit()
@@ -215,7 +229,8 @@ def load_kh():
 
 def them_kh():
     try:
-        conn.execute("INSERT INTO khachhang VALUES (?, ?, ?, ?)",
+        cur = conn.cursor()
+        cur.execute("INSERT INTO khachhang VALUES (%s, %s, %s, %s)",
                      (entry_makh.get(), entry_hoten.get(), entry_sdt.get(), entry_cmnd.get()))
         conn.commit()
         load_kh()
@@ -236,7 +251,8 @@ def sua_kh():
     entry_cmnd.insert(0, v[3])
 
 def luu_kh():
-    conn.execute("UPDATE khachhang SET hoten=?, sdt=?, cmnd=? WHERE makh=?",
+    cur = conn.cursor()
+    cur.execute("UPDATE khachhang SET hoten=%s, sdt=%s, cmnd=%s WHERE makh=%s",
                  (entry_hoten.get(), entry_sdt.get(), entry_cmnd.get(), entry_makh.get()))
     conn.commit()
     load_kh()
@@ -245,7 +261,8 @@ def xoa_kh():
     sel = tree_kh.selection()
     if not sel: return
     makh = tree_kh.item(sel)["values"][0]
-    conn.execute("DELETE FROM khachhang WHERE makh=?", (makh,))
+    cur = conn.cursor()
+    cur.execute("DELETE FROM khachhang WHERE makh=%s", (makh,))
     conn.commit()
     load_kh()
 
@@ -316,7 +333,8 @@ def them_p():
         messagebox.showwarning("Cảnh báo", "Mã phòng không được để trống")
         return
     try:
-        conn.execute("INSERT INTO phong VALUES (?, ?, ?, ?)",
+        cur = conn.cursor()
+        cur.execute("INSERT INTO phong VALUES (%s, %s, %s, %s)",
                      (entry_maphong.get(), cbb_loaiphong.get(),
                       cbb_trangthai.get(), entry_gia.get()))
         conn.commit()
@@ -338,7 +356,8 @@ def sua_p():
 
 def luu_p():
     try:
-        conn.execute("UPDATE phong SET loaiphong=?, trangthai=?, gia=? WHERE maphong=?",
+        cur = conn.cursor()
+        cur.execute("UPDATE phong SET loaiphong=%s, trangthai=%s, gia=%s WHERE maphong=%s",
                      (cbb_loaiphong.get(), cbb_trangthai.get(),
                       entry_gia.get(), entry_maphong.get()))
         conn.commit()
@@ -351,7 +370,8 @@ def xoa_p():
     if not sel: return
     maphong = tree_p.item(sel)["values"][0]
     try:
-        conn.execute("DELETE FROM phong WHERE maphong=?", (maphong,))
+        cur = conn.cursor()
+        cur.execute("DELETE FROM phong WHERE maphong=%s", (maphong,))
         conn.commit()
         load_p()
     except Exception as e:
@@ -422,7 +442,8 @@ def load_dp():
 
 def them_dp():
     try:
-        conn.execute("INSERT INTO datphong VALUES (?, ?, ?, ?, ?)",
+        cur = conn.cursor()
+        cur.execute("INSERT INTO datphong VALUES (%s, %s, %s, %s, %s)",
                      (entry_madat.get(),
                       cbb_kh.get().split(" - ")[0],   # lấy mã KH từ combobox
                       cbb_phong.get(),
@@ -431,7 +452,7 @@ def them_dp():
         conn.commit()
 
         # Cập nhật trạng thái phòng
-        conn.execute("UPDATE phong SET trangthai='Đang thuê' WHERE maphong=?", (cbb_phong.get(),))
+        cur.execute("UPDATE phong SET trangthai='Đang thuê' WHERE maphong=%s", (cbb_phong.get(),))
         conn.commit()
 
         load_dp()
@@ -452,7 +473,8 @@ def sua_dp():
 
 def luu_dp():
     try:
-        conn.execute("""UPDATE datphong SET makh=?, maphong=?, ngaydat=?, ngaytra=? WHERE madat=?""",
+        cur = conn.cursor()
+        cur.execute("""UPDATE datphong SET makh=%s, maphong=%s, ngaydat=%s, ngaytra=%s WHERE madat=%s""",
                      (cbb_kh.get().split(" - ")[0],
                       cbb_phong.get(),
                       date_dat.get(),
@@ -468,11 +490,12 @@ def xoa_dp():
     if not sel: return
     madat, maphong = tree_dp.item(sel)["values"][0], tree_dp.item(sel)["values"][2]
     try:
-        conn.execute("DELETE FROM datphong WHERE madat=?", (madat,))
+        cur = conn.cursor()
+        cur.execute("DELETE FROM datphong WHERE madat=%s", (madat,))
         conn.commit()
 
         # Phòng được xóa đặt thì trả về trạng thái Trống
-        conn.execute("UPDATE phong SET trangthai='Trống' WHERE maphong=?", (maphong,))
+        cur.execute("UPDATE phong SET trangthai='Trống' WHERE maphong=%s", (maphong,))
         conn.commit()
 
         load_dp()
