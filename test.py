@@ -416,7 +416,7 @@ def load_dp():
     cur = conn.cursor()
     cur.execute("SELECT * FROM datphong")
     for row in cur.fetchall():
-        tree_dp
+        tree_dpg
     for row in cur.fetchall():
         tree_dp.insert("", tk.END, values=row)
 
