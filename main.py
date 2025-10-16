@@ -57,6 +57,12 @@ class HotelManagementApp:
             self.current_user_role = None
             self.current_user_name = None
             
+            # Initialize tab variables as None
+            self.employee_tab = None
+            self.customer_tab = None
+            self.room_tab = None
+            self.booking_tab = None
+            
             # Create UI with login tab first
             self.create_ui()
             
@@ -115,19 +121,62 @@ class HotelManagementApp:
 
     def update_views_with_user(self):
         """Update all views with current user information"""
-        # Update employee view
-        self.employee_tab.current_user_role = self.current_user_role
-        self.employee_tab.create_widgets()  # Recreate widgets to update button states
-        
-        # Update room view
-        self.room_tab.current_user_role = self.current_user_role
-        self.room_tab.create_widgets()
-        
-        # Update booking view
-        self.booking_tab.current_user_id = self.current_user_id
-        self.booking_tab.current_user_role = self.current_user_role
-        self.booking_tab.lbl_nhanvien.config(text=self.current_user_id)
-        self.booking_tab.refresh_data()
+        try:
+            # Update employee view - chỉ cập nhật role, không recreate widgets
+            if self.employee_tab:
+                self.employee_tab.current_user_role = self.current_user_role
+                # Cập nhật trạng thái nút dựa trên role
+                self.update_employee_buttons()
+            
+            # Update room view
+            if self.room_tab:
+                self.room_tab.current_user_role = self.current_user_role
+                self.update_room_buttons()
+            
+            # Update booking view
+            if self.booking_tab:
+                self.booking_tab.current_user_id = self.current_user_id
+                self.booking_tab.current_user_role = self.current_user_role
+                # Update employee label
+                self.booking_tab.lbl_nhanvien.config(text=self.current_user_id)
+                self.booking_tab.refresh_data()
+                
+        except Exception as e:
+            logger.error(f"❌ Lỗi cập nhật views: {str(e)}")
+
+    def update_employee_buttons(self):
+        """Cập nhật trạng thái nút trong employee view"""
+        if not self.employee_tab:
+            return
+            
+        # Tìm tất cả các nút trong frame_btn
+        for widget in self.employee_tab.tab.winfo_children():
+            if isinstance(widget, tk.Frame):
+                for btn in widget.winfo_children():
+                    if isinstance(btn, tk.Button):
+                        btn_text = btn.cget('text')
+                        if btn_text in ["Thêm", "Sửa", "Xóa"]:
+                            if self.current_user_role != "Trưởng phòng":
+                                btn.config(state="disabled")
+                            else:
+                                btn.config(state="normal")
+
+    def update_room_buttons(self):
+        """Cập nhật trạng thái nút trong room view"""
+        if not self.room_tab:
+            return
+            
+        # Tìm tất cả các nút trong frame_btn
+        for widget in self.room_tab.tab.winfo_children():
+            if isinstance(widget, tk.Frame):
+                for btn in widget.winfo_children():
+                    if isinstance(btn, tk.Button):
+                        btn_text = btn.cget('text')
+                        if btn_text in ["Thêm", "Sửa", "Xóa"]:
+                            if self.current_user_role != "Trưởng phòng":
+                                btn.config(state="disabled")
+                            else:
+                                btn.config(state="normal")
 
     def update_tab_access(self):
         """Enable or disable tabs based on login status"""
@@ -140,6 +189,10 @@ class HotelManagementApp:
         for i, tab_name in enumerate(tab_names):
             if is_logged_in:
                 self.notebook.tab(i, state="normal")
+                if tab_name == "Đăng nhập":
+                    self.notebook.tab(i, state="normal")
+                else:
+                    self.notebook.tab(i, state="normal")
             else:
                 if tab_name == "Đăng nhập":
                     self.notebook.tab(i, state="normal")
