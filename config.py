@@ -9,6 +9,6 @@ DB_CONFIG = {
 
 # App configuration
 APP_CONFIG = {
-    'window_width': 950,
-    'window_height': 650
+    'window_width': 1000,
+    'window_height': 700
 }

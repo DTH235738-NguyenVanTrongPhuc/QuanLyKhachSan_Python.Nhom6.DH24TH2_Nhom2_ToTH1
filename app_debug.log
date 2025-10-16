@@ -1,0 +1,221 @@
+2025-10-16 10:40:33,433 - INFO - ==================================================
+2025-10-16 10:40:33,433 - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 10:40:33,433 - INFO - ==================================================
+2025-10-16 10:40:33,433 - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 10:40:33,562 - INFO - ✅ Đã tạo cửa sổ chính
+2025-10-16 10:40:33,563 - INFO - 🔗 Đang kết nối database...
+2025-10-16 10:40:33,563 - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 10:40:34,454 - INFO - ✅ Kết nối database thành công
+2025-10-16 10:40:34,454 - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 10:40:34,544 - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 10:40:34,586 - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 10:40:34,638 - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 10:40:34,710 - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 10:40:34,776 - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 10:40:34,829 - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 10:40:34,829 - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 10:40:35,039 - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 10:40:35,039 - INFO - ✅ Kết nối database thành công
+2025-10-16 10:40:35,039 - INFO - 🔐 Đang hiển thị màn hình đăng nhập
+2025-10-16 10:40:35,039 - INFO - 🔐 Khởi tạo LoginView
+2025-10-16 10:40:35,039 - INFO - 🎨 Đang tạo giao diện đăng nhập...
+2025-10-16 10:40:35,075 - INFO - ✅ Đã tạo giao diện đăng nhập thành công
+2025-10-16 10:40:35,075 - INFO - ✅ Đã tạo màn hình đăng nhập
+2025-10-16 10:40:35,075 - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 10:50:48,465 - __main__ - INFO - ==================================================
+2025-10-16 10:50:48,465 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 10:50:48,465 - __main__ - INFO - ==================================================
+2025-10-16 10:50:48,465 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 10:50:48,465 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 10:50:48,465 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 10:50:48,465 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 10:50:48,465 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 10:50:48,589 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 10:50:48,589 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 10:50:48,602 - __main__ - INFO - ✅ Đã thêm label test
+2025-10-16 10:50:48,602 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 10:50:48,602 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 10:50:49,523 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 10:50:49,523 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 10:50:49,628 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 10:50:49,669 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 10:50:49,714 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 10:50:49,767 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 10:50:49,808 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 10:50:49,862 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 10:50:49,862 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 10:50:50,074 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 10:50:50,074 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 10:50:50,074 - __main__ - INFO - 🔄 Đang cập nhật giao diện...
+2025-10-16 10:50:50,117 - __main__ - INFO - ✅ Đã cập nhật giao diện
+2025-10-16 10:50:50,117 - __main__ - INFO - 🔐 Đang hiển thị màn hình đăng nhập
+2025-10-16 10:50:50,118 - __main__ - INFO - ✅ Đã hiển thị cửa sổ chính
+2025-10-16 10:50:50,118 - root - INFO - 🔐 Khởi tạo LoginView
+2025-10-16 10:50:50,118 - root - INFO - 🎨 Đang tạo giao diện đăng nhập...
+2025-10-16 10:50:50,137 - root - INFO - ✅ Đã tạo giao diện đăng nhập thành công
+2025-10-16 10:50:50,137 - __main__ - INFO - ✅ Đã tạo màn hình đăng nhập
+2025-10-16 10:50:50,159 - __main__ - INFO - ✅ Đã cập nhật sau khi tạo login
+2025-10-16 10:50:50,160 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 10:50:50,160 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 10:51:07,495 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-16 11:05:17,098 - __main__ - INFO - ==================================================
+2025-10-16 11:05:17,098 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 11:05:17,098 - __main__ - INFO - ==================================================
+2025-10-16 11:05:17,098 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 11:05:17,098 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 11:05:17,098 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 11:05:17,098 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 11:05:17,098 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 11:05:17,224 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 11:05:17,224 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 11:05:17,224 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 11:05:17,224 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 11:05:18,281 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 11:05:18,282 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 11:05:18,517 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 11:05:18,565 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 11:05:18,617 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 11:05:18,667 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 11:05:18,728 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 11:05:18,832 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 11:05:18,832 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 11:05:19,243 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 11:05:19,243 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 11:05:19,244 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 11:05:19,244 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 11:05:19,244 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 11:05:19,283 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 11:05:20,198 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-16 11:05:20,199 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 11:05:20,201 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 11:05:43,047 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 11:05:43,102 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 11:05:43,103 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 11:27:55,596 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-16 13:19:12,747 - __main__ - INFO - ==================================================
+2025-10-16 13:19:12,748 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 13:19:12,748 - __main__ - INFO - ==================================================
+2025-10-16 13:19:12,748 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 13:19:12,748 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 13:19:12,748 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 13:19:12,748 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 13:19:12,748 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 13:19:12,888 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 13:19:12,888 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 13:19:12,888 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 13:19:12,888 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 13:19:13,638 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 13:19:13,638 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 13:19:13,753 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 13:19:13,793 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 13:19:13,845 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 13:19:13,895 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 13:19:13,944 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 13:19:14,004 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 13:19:14,004 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 13:19:14,232 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 13:19:14,233 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 13:19:14,233 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 13:19:14,233 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 13:19:14,233 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 13:19:14,304 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 13:19:14,950 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-16 13:19:14,950 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 13:19:14,950 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 13:19:50,432 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:19:50,483 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:19:50,483 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:26:48,701 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-16 13:41:25,489 - __main__ - INFO - ==================================================
+2025-10-16 13:41:25,489 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 13:41:25,489 - __main__ - INFO - ==================================================
+2025-10-16 13:41:25,489 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 13:41:25,489 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 13:41:25,490 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 13:41:25,490 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 13:41:25,490 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 13:41:25,716 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 13:41:25,716 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 13:41:25,716 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 13:41:25,716 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 13:41:26,822 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 13:41:26,822 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 13:41:26,966 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 13:41:27,049 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 13:41:27,110 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 13:41:27,174 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 13:41:27,231 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 13:41:27,287 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 13:41:27,287 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 13:41:27,541 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 13:41:27,541 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 13:41:27,541 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 13:41:27,541 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 13:41:27,541 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 13:41:27,653 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 13:41:27,996 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: name 'columns' is not defined
+Traceback (most recent call last):
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/main.py", line 85, in create_ui
+    self.customer_tab = CustomerView(self.notebook, self.db)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 8, in __init__
+    self.create_widgets()
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 33, in create_widgets
+    self.tree = ttk.Treeview(self.tab, columns=columns, show="headings", height=10)
+                                               ^^^^^^^
+NameError: name 'columns' is not defined
+2025-10-16 13:41:28,000 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 13:41:28,000 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 13:41:42,976 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:41:43,061 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:41:43,061 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:41:43,114 - root - ERROR - ❌ Lỗi đăng nhập: 'HotelManagementApp' object has no attribute 'room_tab'
+2025-10-16 13:41:55,808 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:41:55,864 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:41:55,864 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:41:55,937 - root - ERROR - ❌ Lỗi đăng nhập: 'HotelManagementApp' object has no attribute 'room_tab'
+2025-10-16 13:42:55,213 - __main__ - INFO - ==================================================
+2025-10-16 13:42:55,213 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 13:42:55,213 - __main__ - INFO - ==================================================
+2025-10-16 13:42:55,213 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 13:42:55,213 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 13:42:55,213 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 13:42:55,213 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 13:42:55,213 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 13:42:55,382 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 13:42:55,383 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 13:42:55,383 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 13:42:55,383 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 13:42:55,686 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 13:42:55,686 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 13:42:55,799 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 13:42:55,844 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 13:42:55,888 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 13:42:55,936 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 13:42:55,991 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 13:42:56,036 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 13:42:56,036 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 13:42:56,219 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 13:42:56,219 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 13:42:56,219 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 13:42:56,220 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 13:42:56,220 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 13:42:56,288 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 13:42:56,545 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: name 'columns' is not defined
+Traceback (most recent call last):
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/main.py", line 85, in create_ui
+    self.customer_tab = CustomerView(self.notebook, self.db)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 8, in __init__
+    self.create_widgets()
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 33, in create_widgets
+    self.tree = ttk.Treeview(self.tab, columns=columns, show="headings", height=10)
+                                               ^^^^^^^
+NameError: name 'columns' is not defined
+2025-10-16 13:42:56,549 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 13:42:56,549 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 13:43:07,151 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:43:07,207 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:43:07,207 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:43:07,296 - root - ERROR - ❌ Lỗi đăng nhập: 'HotelManagementApp' object has no attribute 'room_tab'
+2025-10-16 13:43:11,961 - __main__ - INFO - 👋 Ứng dụng đã đóng

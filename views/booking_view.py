@@ -1,10 +1,14 @@
+# booking_view.py - Enhanced version
 import tkinter as tk
 from tkinter import ttk, messagebox
 from tkcalendar import DateEntry
+from datetime import datetime
 
 class BookingView:
-    def __init__(self, parent, db):
+    def __init__(self, parent, db, current_user_id=None, current_user_role=None):
         self.db = db
+        self.current_user_id = current_user_id
+        self.current_user_role = current_user_role
         self.tab = ttk.Frame(parent)
         self.create_widgets()
         self.load_data()
@@ -35,12 +39,29 @@ class BookingView:
         self.date_tra = DateEntry(frame_info, width=12, date_pattern="yyyy-mm-dd")
         self.date_tra.grid(row=1, column=3, padx=5)
 
-        # Treeview
-        columns = ("madat", "makh", "maphong", "ngaydat", "ngaytra")
+        # Display current employee (read-only)
+        tk.Label(frame_info, text="Nhân viên tạo").grid(row=1, column=4, padx=5)
+        self.lbl_nhanvien = tk.Label(frame_info, text=self.current_user_id, 
+                                   bg="#f0f0f0", relief="sunken", width=15)
+        self.lbl_nhanvien.grid(row=1, column=5, padx=5)
+
+        # Treeview with enhanced columns
+        columns = ("madat", "makh", "hoten", "maphong", "manv", "ngaydat", "ngaytra")
         self.tree = ttk.Treeview(self.tab, columns=columns, show="headings", height=10)
+        
+        headings = {
+            "madat": "MÃ ĐẶT",
+            "makh": "MÃ KH", 
+            "hoten": "TÊN KH",
+            "maphong": "PHÒNG",
+            "manv": "NV TẠO",
+            "ngaydat": "NGÀY ĐẶT",
+            "ngaytra": "NGÀY TRẢ"
+        }
+        
         for col in columns:
-            self.tree.heading(col, text=col.upper())
-        self.tree.pack(padx=10, pady=10, fill="both")
+            self.tree.heading(col, text=headings[col])
+        self.tree.pack(padx=10, pady=10, fill="both", expand=True)
 
         # Bind selection event
         self.tree.bind("<<TreeviewSelect>>", self.on_select)
@@ -51,9 +72,10 @@ class BookingView:
         
         buttons = [
             ("Thêm", self.add_booking, "#4CAF50"),
-            ("Sửa", self.edit_booking, "#4CAF50"),
-            ("Lưu", self.save_booking, "#4CAF50"),
-            ("Xóa", self.delete_booking, "#4CAF50")
+            ("Sửa", self.edit_booking, "#2196F3"),
+            ("Lưu", self.save_booking, "#FF9800"),
+            ("Xóa", self.delete_booking, "#f44336"),
+            ("Làm mới", self.refresh_data, "#607D8B")
         ]
         
         for i, (text, command, color) in enumerate(buttons):
@@ -63,85 +85,159 @@ class BookingView:
     def refresh_comboboxes(self):
         # Refresh customer combobox
         cur = self.db.get_cursor()
-        cur.execute("SELECT makh, hoten FROM khachhang")
+        cur.execute("SELECT makh, hoten FROM khachhang ORDER BY hoten")
         self.cbb_kh["values"] = [f"{row[0]} - {row[1]}" for row in cur.fetchall()]
 
-        # Refresh room combobox
-        cur.execute("SELECT maphong FROM phong WHERE trangthai='Trống'")
-        self.cbb_phong["values"] = [row[0] for row in cur.fetchall()]
+        # Refresh room combobox - only available rooms
+        cur.execute("""
+            SELECT p.maphong, l.tenloai, l.gia 
+            FROM phong p 
+            JOIN loaiphong l ON p.maloai = l.maloai 
+            WHERE p.trangthai = 'Trống'
+            ORDER BY p.maphong
+        """)
+        rooms = cur.fetchall()
+        self.cbb_phong["values"] = [f"{row[0]} - {row[1]} ({row[2]:,} VND)" for row in rooms]
 
     def load_data(self):
         for i in self.tree.get_children():
             self.tree.delete(i)
         cur = self.db.get_cursor()
-        cur.execute("SELECT * FROM datphong")
+        cur.execute("""
+            SELECT d.madat, d.makh, k.hoten, d.maphong, d.manv, d.ngaydat, d.ngaytra
+            FROM datphong d
+            JOIN khachhang k ON d.makh = k.makh
+            WHERE d.trangthai = 'Active'
+            ORDER BY d.ngaydat DESC
+        """)
         for row in cur.fetchall():
             self.tree.insert("", tk.END, values=row)
 
     def add_booking(self):
         try:
+            # Validate inputs
+            if not all([self.entry_madat.get(), self.cbb_kh.get(), self.cbb_phong.get()]):
+                messagebox.showwarning("Cảnh báo", "Vui lòng điền đầy đủ thông tin")
+                return
+
+            # Check if booking code already exists
             cur = self.db.get_cursor()
-            cur.execute("INSERT INTO datphong VALUES (%s, %s, %s, %s, %s)",
-                       (self.entry_madat.get(),
-                        self.cbb_kh.get().split(" - ")[0],
-                        self.cbb_phong.get(),
-                        self.date_dat.get(),
-                        self.date_tra.get()))
-            self.db.commit()
+            cur.execute("SELECT COUNT(*) FROM datphong WHERE madat=%s", (self.entry_madat.get(),))
+            if cur.fetchone()[0] > 0:
+                messagebox.showerror("Lỗi", "Mã đặt phòng đã tồn tại")
+                return
+
+            madat = self.entry_madat.get()
+            makh = self.cbb_kh.get().split(" - ")[0]
+            maphong = self.cbb_phong.get().split(" - ")[0]
+            ngaydat = self.date_dat.get()
+            ngaytra = self.date_tra.get()
+
+            # Insert booking with employee tracking
+            cur.execute("""
+                INSERT INTO datphong (madat, makh, maphong, manv, ngaydat, ngaytra) 
+                VALUES (%s, %s, %s, %s, %s, %s)
+            """, (madat, makh, maphong, self.current_user_id, ngaydat, ngaytra))
 
             # Update room status
-            cur.execute("UPDATE phong SET trangthai='Đang thuê' WHERE maphong=%s", 
-                       (self.cbb_phong.get(),))
+            cur.execute("UPDATE phong SET trangthai='Đang thuê' WHERE maphong=%s", (maphong,))
+            
             self.db.commit()
-
             self.load_data()
             self.refresh_comboboxes()
+            self.clear_form()
+            messagebox.showinfo("Thành công", "Đặt phòng thành công")
+            
         except Exception as e:
-            messagebox.showerror("Lỗi", str(e))
+            messagebox.showerror("Lỗi", f"Không thể đặt phòng: {str(e)}")
 
     def edit_booking(self):
         sel = self.tree.selection()
-        if not sel: return
+        if not sel: 
+            messagebox.showwarning("Cảnh báo", "Vui lòng chọn đặt phòng cần sửa")
+            return
+            
         v = self.tree.item(sel)["values"]
         self.entry_madat.delete(0, tk.END)
         self.entry_madat.insert(0, v[0])
-        self.cbb_kh.set(v[1])
-        self.cbb_phong.set(v[2])
-        self.date_dat.set_date(v[3])
-        self.date_tra.set_date(v[4])
+        self.entry_madat.config(state="disabled")  # Cannot change booking code
+        
+        self.cbb_kh.set(f"{v[1]} - {v[2]}")
+        self.cbb_phong.set(v[3])
+        self.date_dat.set_date(v[5])
+        self.date_tra.set_date(v[6])
 
     def save_booking(self):
         try:
             cur = self.db.get_cursor()
-            cur.execute("""UPDATE datphong SET makh=%s, maphong=%s, 
-                          ngaydat=%s, ngaytra=%s WHERE madat=%s""",
-                       (self.cbb_kh.get().split(" - ")[0],
-                        self.cbb_phong.get(),
-                        self.date_dat.get(),
-                        self.date_tra.get(),
-                        self.entry_madat.get()))
+            
+            # Get old room to update status
+            cur.execute("SELECT maphong FROM datphong WHERE madat=%s", (self.entry_madat.get(),))
+            old_room = cur.fetchone()[0]
+            
+            makh = self.cbb_kh.get().split(" - ")[0]
+            new_room = self.cbb_phong.get().split(" - ")[0]
+            ngaydat = self.date_dat.get()
+            ngaytra = self.date_tra.get()
+
+            cur.execute("""
+                UPDATE datphong SET makh=%s, maphong=%s, ngaydat=%s, ngaytra=%s 
+                WHERE madat=%s
+            """, (makh, new_room, ngaydat, ngaytra, self.entry_madat.get()))
+
+            # Update room statuses
+            if old_room != new_room:
+                cur.execute("UPDATE phong SET trangthai='Trống' WHERE maphong=%s", (old_room,))
+                cur.execute("UPDATE phong SET trangthai='Đang thuê' WHERE maphong=%s", (new_room,))
+            
             self.db.commit()
             self.load_data()
+            self.refresh_comboboxes()
+            self.clear_form()
+            messagebox.showinfo("Thành công", "Cập nhật đặt phòng thành công")
+            
         except Exception as e:
-            messagebox.showerror("Lỗi", str(e))
+            messagebox.showerror("Lỗi", f"Không thể cập nhật đặt phòng: {str(e)}")
 
     def delete_booking(self):
         sel = self.tree.selection()
         if not sel: return
-        madat, maphong = self.tree.item(sel)["values"][0], self.tree.item(sel)["values"][2]
-        try:
-            cur = self.db.get_cursor()
-            cur.execute("DELETE FROM datphong WHERE madat=%s", (madat,))
-            self.db.commit()
+        
+        madat = self.tree.item(sel)["values"][0]
+        maphong = self.tree.item(sel)["values"][3]
+        
+        if messagebox.askyesno("Xác nhận", f"Bạn có chắc muốn xóa đặt phòng {madat}?"):
+            try:
+                cur = self.db.get_cursor()
+                
+                # Soft delete booking
+                cur.execute("UPDATE datphong SET trangthai='Cancelled' WHERE madat=%s", (madat,))
+                
+                # Reset room status
+                cur.execute("UPDATE phong SET trangthai='Trống' WHERE maphong=%s", (maphong,))
+                
+                self.db.commit()
+                self.load_data()
+                self.refresh_comboboxes()
+                self.clear_form()
+                messagebox.showinfo("Thành công", "Xóa đặt phòng thành công")
+                
+            except Exception as e:
+                messagebox.showerror("Lỗi", f"Không thể xóa đặt phòng: {str(e)}")
 
-            # Reset room status
-            cur.execute("UPDATE phong SET trangthai='Trống' WHERE maphong=%s", (maphong,))
-            self.db.commit()
+    def clear_form(self):
+        self.entry_madat.delete(0, tk.END)
+        self.entry_madat.config(state="normal")
+        self.cbb_kh.set("")
+        self.cbb_phong.set("")
+        # Set default dates
+        self.date_dat.set_date(datetime.now())
+        self.date_tra.set_date(datetime.now())
 
-            self.load_data()
-            self.refresh_comboboxes()
-        except Exception as e:
-            messagebox.showerror("Lỗi", str(e))
+    def refresh_data(self):
+        self.load_data()
+        self.refresh_comboboxes()
+        self.clear_form()
 
     def on_select(self, event):
         self.edit_booking()

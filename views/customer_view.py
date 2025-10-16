@@ -30,7 +30,6 @@ class CustomerView:
         self.entry_cmnd.grid(row=1, column=3, padx=5)
 
         # Treeview
-        columns = ("makh", "hoten", "sdt", "cmnd")
         self.tree = ttk.Treeview(self.tab, columns=columns, show="headings", height=10)
         for col in columns:
             self.tree.heading(col, text=col.upper())

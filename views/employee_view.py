@@ -3,8 +3,9 @@ from tkinter import ttk, messagebox
 from tkcalendar import DateEntry
 
 class EmployeeView:
-    def __init__(self, parent, db):
+    def __init__(self, parent, db, current_user_role=None):
         self.db = db
+        self.current_user_role = current_user_role
         self.tab = ttk.Frame(parent)
         self.create_widgets()
         self.load_data()
@@ -38,12 +39,20 @@ class EmployeeView:
         self.date_entry.grid(row=1, column=4, padx=5, pady=5)
 
         tk.Label(frame_info, text="Chức vụ").grid(row=1, column=5, padx=5, pady=5)
-        self.cbb_chucvu = ttk.Combobox(frame_info, values=["Trưởng phòng", "Phó phòng", 
-                                                         "Nhân viên", "Lễ tân", "Bảo vệ"], width=18)
+        self.cbb_chucvu = ttk.Combobox(frame_info, values=["Trưởng phòng", "Nhân viên"], width=18)
         self.cbb_chucvu.grid(row=1, column=6, padx=5, pady=5)
 
+        # Thêm trường email và password
+        tk.Label(frame_info, text="Email").grid(row=2, column=0, padx=5, pady=5)
+        self.entry_email = tk.Entry(frame_info, width=20)
+        self.entry_email.grid(row=2, column=1, padx=5, pady=5)
+
+        tk.Label(frame_info, text="Password").grid(row=2, column=2, padx=5, pady=5)
+        self.entry_password = tk.Entry(frame_info, width=20, show="*")
+        self.entry_password.grid(row=2, column=3, padx=5, pady=5)
+
         # Treeview
-        columns = ("maso", "holot", "ten", "phai", "ngaysinh", "chucvu")
+        columns = ("maso", "holot", "ten", "phai", "ngaysinh", "chucvu", "email")
         self.tree = ttk.Treeview(self.tab, columns=columns, show="headings", height=10)
         for col in columns:
             self.tree.heading(col, text=col.capitalize())
@@ -61,30 +70,45 @@ class EmployeeView:
         ]
         
         for i, (text, command, color) in enumerate(buttons):
-            tk.Button(frame_btn, text=text, width=8, bg=color, fg="white",
-                     command=command).grid(row=0, column=i, padx=5)
+            btn = tk.Button(frame_btn, text=text, width=8, bg=color, fg="white",
+                          command=command)
+            btn.grid(row=0, column=i, padx=5)
+            
+            # Ẩn nút Thêm, Sửa, Xóa nếu không phải trưởng phòng
+            if self.current_user_role != "Trưởng phòng" and text in ["Thêm", "Sửa", "Xóa"]:
+                btn.config(state="disabled")
 
     def load_data(self):
         for i in self.tree.get_children():
             self.tree.delete(i)
         cur = self.db.get_cursor()
-        cur.execute("SELECT * FROM nhanvien")
+        cur.execute("SELECT maso, holot, ten, phai, ngaysinh, chucvu, email FROM nhanvien")
         for row in cur.fetchall():
             self.tree.insert("", tk.END, values=row)
 
     def add_employee(self):
+        if self.current_user_role != "Trưởng phòng":
+            messagebox.showwarning("Cảnh báo", "Chỉ trưởng phòng có thể thêm nhân viên")
+            return
+            
         try:
             cur = self.db.get_cursor()
-            cur.execute("INSERT INTO nhanvien VALUES (%s, %s, %s, %s, %s, %s)", (
+            cur.execute("INSERT INTO nhanvien VALUES (%s, %s, %s, %s, %s, %s, %s, %s)", (
                 self.entry_maso.get(), self.entry_holot.get(), self.entry_ten.get(),
-                self.gender_var.get(), self.date_entry.get(), self.cbb_chucvu.get()
+                self.gender_var.get(), self.date_entry.get(), self.cbb_chucvu.get(),
+                self.entry_email.get(), self.entry_password.get()
             ))
             self.db.commit()
             self.load_data()
+            messagebox.showinfo("Thành công", "Thêm nhân viên thành công")
         except Exception as e:
             messagebox.showerror("Lỗi", str(e))
 
     def delete_employee(self):
+        if self.current_user_role != "Trưởng phòng":
+            messagebox.showwarning("Cảnh báo", "Chỉ trưởng phòng có thể xóa nhân viên")
+            return
+            
         sel = self.tree.selection()
         if not sel: return
         maso = self.tree.item(sel)["values"][0]
@@ -94,6 +118,10 @@ class EmployeeView:
         self.load_data()
 
     def edit_employee(self):
+        if self.current_user_role != "Trưởng phòng":
+            messagebox.showwarning("Cảnh báo", "Chỉ trưởng phòng có thể sửa nhân viên")
+            return
+            
         sel = self.tree.selection()
         if not sel: return
         v = self.tree.item(sel)["values"]
@@ -106,12 +134,31 @@ class EmployeeView:
         self.gender_var.set(v[3])
         self.date_entry.set_date(v[4])
         self.cbb_chucvu.set(v[5])
+        self.entry_email.delete(0, tk.END)
+        self.entry_email.insert(0, v[6] if len(v) > 6 else "")
+        self.entry_password.delete(0, tk.END)
 
     def save_employee(self):
+        if self.current_user_role != "Trưởng phòng":
+            messagebox.showwarning("Cảnh báo", "Chỉ trưởng phòng có thể lưu thông tin nhân viên")
+            return
+            
         cur = self.db.get_cursor()
-        cur.execute("""UPDATE nhanvien SET holot=%s, ten=%s, phai=%s, 
-                      ngaysinh=%s, chucvu=%s WHERE maso=%s""",
-                   (self.entry_holot.get(), self.entry_ten.get(), self.gender_var.get(),
-                    self.date_entry.get(), self.cbb_chucvu.get(), self.entry_maso.get()))
+        password_update = ""
+        if self.entry_password.get():
+            password_update = ", password=%s"
+            params = (self.entry_holot.get(), self.entry_ten.get(), self.gender_var.get(),
+                     self.date_entry.get(), self.cbb_chucvu.get(), self.entry_email.get(),
+                     self.entry_password.get(), self.entry_maso.get())
+        else:
+            params = (self.entry_holot.get(), self.entry_ten.get(), self.gender_var.get(),
+                     self.date_entry.get(), self.cbb_chucvu.get(), self.entry_email.get(),
+                     self.entry_maso.get())
+        
+        query = f"""UPDATE nhanvien SET holot=%s, ten=%s, phai=%s, 
+                   ngaysinh=%s, chucvu=%s, email=%s{password_update} WHERE maso=%s"""
+        
+        cur.execute(query, params)
         self.db.commit()
         self.load_data()
+        messagebox.showinfo("Thành công", "Cập nhật thông tin thành công")
