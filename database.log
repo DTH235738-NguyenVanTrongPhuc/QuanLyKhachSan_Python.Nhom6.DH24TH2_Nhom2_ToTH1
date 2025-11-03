@@ -1,0 +1,74 @@
+2025-10-21 20:41:19,879 - database - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-21 20:41:19,913 - database - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-21 20:42:06,251 - __main__ - INFO - ==================================================
+2025-10-21 20:42:06,252 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-21 20:42:06,252 - __main__ - INFO - ==================================================
+2025-10-21 20:42:06,252 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-21 20:42:06,252 - __main__ - INFO - Current directory: E:\test
+2025-10-21 20:42:06,252 - __main__ - INFO - Tkinter version: 8.6
+2025-10-21 20:42:06,252 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-21 20:42:06,252 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-21 20:42:06,300 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-21 20:42:06,300 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-21 20:42:06,300 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-21 20:42:06,300 - database - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-21 20:42:06,332 - database - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-21 20:42:06,333 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-21 20:42:06,333 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-21 20:42:06,336 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-21 20:42:06,336 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-21 20:42:06,346 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-21 20:42:06,449 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: 'Database' object has no attribute 'get_cursor'
+Traceback (most recent call last):
+  File "e:\test\main.py", line 92, in create_ui
+    self.employee_tab = EmployeeView(self.notebook, self.db, None)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\test\views\employee_view.py", line 11, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "e:\test\views\employee_view.py", line 101, in load_data
+    cur = self.db.get_cursor()
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'get_cursor'
+2025-10-21 20:42:06,451 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-21 20:42:06,451 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-21 20:42:18,175 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:06:40,636 - database - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:06:40,675 - database - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 23:06:48,053 - database - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:06:48,076 - database - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 23:07:10,334 - database - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:07:10,378 - database - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 23:07:14,870 - __main__ - INFO - ==================================================
+2025-10-27 23:07:14,870 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:07:14,870 - __main__ - INFO - ==================================================
+2025-10-27 23:07:14,870 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:07:14,870 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:07:14,871 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:07:14,871 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:07:14,871 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 23:07:14,916 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 23:07:14,916 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:07:14,916 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:07:14,916 - database - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:07:14,947 - database - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 23:07:14,948 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:07:14,948 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:07:14,949 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 23:07:14,950 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 23:07:14,954 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 23:07:15,023 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: 'Database' object has no attribute 'get_cursor'
+Traceback (most recent call last):
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\main.py", line 94, in create_ui
+    self.employee_tab = EmployeeView(self.notebook, self.db, None)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\views\employee_view.py", line 11, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\views\employee_view.py", line 101, in load_data
+    cur = self.db.get_cursor()
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'get_cursor'
+2025-10-27 23:07:15,024 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:07:15,024 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 23:07:19,824 - __main__ - INFO - 👋 Ứng dụng đã đóng

@@ -1,0 +1,1864 @@
+2025-10-16 10:40:33,433 - INFO - ==================================================
+2025-10-16 10:40:33,433 - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 10:40:33,433 - INFO - ==================================================
+2025-10-16 10:40:33,433 - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 10:40:33,562 - INFO - ✅ Đã tạo cửa sổ chính
+2025-10-16 10:40:33,563 - INFO - 🔗 Đang kết nối database...
+2025-10-16 10:40:33,563 - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 10:40:34,454 - INFO - ✅ Kết nối database thành công
+2025-10-16 10:40:34,454 - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 10:40:34,544 - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 10:40:34,586 - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 10:40:34,638 - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 10:40:34,710 - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 10:40:34,776 - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 10:40:34,829 - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 10:40:34,829 - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 10:40:35,039 - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 10:40:35,039 - INFO - ✅ Kết nối database thành công
+2025-10-16 10:40:35,039 - INFO - 🔐 Đang hiển thị màn hình đăng nhập
+2025-10-16 10:40:35,039 - INFO - 🔐 Khởi tạo LoginView
+2025-10-16 10:40:35,039 - INFO - 🎨 Đang tạo giao diện đăng nhập...
+2025-10-16 10:40:35,075 - INFO - ✅ Đã tạo giao diện đăng nhập thành công
+2025-10-16 10:40:35,075 - INFO - ✅ Đã tạo màn hình đăng nhập
+2025-10-16 10:40:35,075 - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 10:50:48,465 - __main__ - INFO - ==================================================
+2025-10-16 10:50:48,465 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 10:50:48,465 - __main__ - INFO - ==================================================
+2025-10-16 10:50:48,465 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 10:50:48,465 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 10:50:48,465 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 10:50:48,465 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 10:50:48,465 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 10:50:48,589 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 10:50:48,589 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 10:50:48,602 - __main__ - INFO - ✅ Đã thêm label test
+2025-10-16 10:50:48,602 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 10:50:48,602 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 10:50:49,523 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 10:50:49,523 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 10:50:49,628 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 10:50:49,669 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 10:50:49,714 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 10:50:49,767 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 10:50:49,808 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 10:50:49,862 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 10:50:49,862 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 10:50:50,074 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 10:50:50,074 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 10:50:50,074 - __main__ - INFO - 🔄 Đang cập nhật giao diện...
+2025-10-16 10:50:50,117 - __main__ - INFO - ✅ Đã cập nhật giao diện
+2025-10-16 10:50:50,117 - __main__ - INFO - 🔐 Đang hiển thị màn hình đăng nhập
+2025-10-16 10:50:50,118 - __main__ - INFO - ✅ Đã hiển thị cửa sổ chính
+2025-10-16 10:50:50,118 - root - INFO - 🔐 Khởi tạo LoginView
+2025-10-16 10:50:50,118 - root - INFO - 🎨 Đang tạo giao diện đăng nhập...
+2025-10-16 10:50:50,137 - root - INFO - ✅ Đã tạo giao diện đăng nhập thành công
+2025-10-16 10:50:50,137 - __main__ - INFO - ✅ Đã tạo màn hình đăng nhập
+2025-10-16 10:50:50,159 - __main__ - INFO - ✅ Đã cập nhật sau khi tạo login
+2025-10-16 10:50:50,160 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 10:50:50,160 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 10:51:07,495 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-16 11:05:17,098 - __main__ - INFO - ==================================================
+2025-10-16 11:05:17,098 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 11:05:17,098 - __main__ - INFO - ==================================================
+2025-10-16 11:05:17,098 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 11:05:17,098 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 11:05:17,098 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 11:05:17,098 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 11:05:17,098 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 11:05:17,224 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 11:05:17,224 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 11:05:17,224 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 11:05:17,224 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 11:05:18,281 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 11:05:18,282 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 11:05:18,517 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 11:05:18,565 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 11:05:18,617 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 11:05:18,667 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 11:05:18,728 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 11:05:18,832 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 11:05:18,832 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 11:05:19,243 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 11:05:19,243 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 11:05:19,244 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 11:05:19,244 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 11:05:19,244 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 11:05:19,283 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 11:05:20,198 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-16 11:05:20,199 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 11:05:20,201 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 11:05:43,047 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 11:05:43,102 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 11:05:43,103 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 11:27:55,596 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-16 13:19:12,747 - __main__ - INFO - ==================================================
+2025-10-16 13:19:12,748 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 13:19:12,748 - __main__ - INFO - ==================================================
+2025-10-16 13:19:12,748 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 13:19:12,748 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 13:19:12,748 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 13:19:12,748 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 13:19:12,748 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 13:19:12,888 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 13:19:12,888 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 13:19:12,888 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 13:19:12,888 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 13:19:13,638 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 13:19:13,638 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 13:19:13,753 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 13:19:13,793 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 13:19:13,845 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 13:19:13,895 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 13:19:13,944 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 13:19:14,004 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 13:19:14,004 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 13:19:14,232 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 13:19:14,233 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 13:19:14,233 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 13:19:14,233 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 13:19:14,233 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 13:19:14,304 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 13:19:14,950 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-16 13:19:14,950 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 13:19:14,950 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 13:19:50,432 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:19:50,483 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:19:50,483 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:26:48,701 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-16 13:41:25,489 - __main__ - INFO - ==================================================
+2025-10-16 13:41:25,489 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 13:41:25,489 - __main__ - INFO - ==================================================
+2025-10-16 13:41:25,489 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 13:41:25,489 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 13:41:25,490 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 13:41:25,490 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 13:41:25,490 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 13:41:25,716 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 13:41:25,716 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 13:41:25,716 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 13:41:25,716 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 13:41:26,822 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 13:41:26,822 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 13:41:26,966 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 13:41:27,049 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 13:41:27,110 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 13:41:27,174 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 13:41:27,231 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 13:41:27,287 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 13:41:27,287 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 13:41:27,541 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 13:41:27,541 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 13:41:27,541 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 13:41:27,541 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 13:41:27,541 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 13:41:27,653 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 13:41:27,996 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: name 'columns' is not defined
+Traceback (most recent call last):
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/main.py", line 85, in create_ui
+    self.customer_tab = CustomerView(self.notebook, self.db)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 8, in __init__
+    self.create_widgets()
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 33, in create_widgets
+    self.tree = ttk.Treeview(self.tab, columns=columns, show="headings", height=10)
+                                               ^^^^^^^
+NameError: name 'columns' is not defined
+2025-10-16 13:41:28,000 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 13:41:28,000 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 13:41:42,976 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:41:43,061 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:41:43,061 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:41:43,114 - root - ERROR - ❌ Lỗi đăng nhập: 'HotelManagementApp' object has no attribute 'room_tab'
+2025-10-16 13:41:55,808 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:41:55,864 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:41:55,864 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:41:55,937 - root - ERROR - ❌ Lỗi đăng nhập: 'HotelManagementApp' object has no attribute 'room_tab'
+2025-10-16 13:42:55,213 - __main__ - INFO - ==================================================
+2025-10-16 13:42:55,213 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 13:42:55,213 - __main__ - INFO - ==================================================
+2025-10-16 13:42:55,213 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 13:42:55,213 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 13:42:55,213 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 13:42:55,213 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 13:42:55,213 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 13:42:55,382 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 13:42:55,383 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 13:42:55,383 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 13:42:55,383 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 13:42:55,686 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 13:42:55,686 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 13:42:55,799 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 13:42:55,844 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 13:42:55,888 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 13:42:55,936 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 13:42:55,991 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 13:42:56,036 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 13:42:56,036 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 13:42:56,219 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 13:42:56,219 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 13:42:56,219 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 13:42:56,220 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 13:42:56,220 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 13:42:56,288 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 13:42:56,545 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: name 'columns' is not defined
+Traceback (most recent call last):
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/main.py", line 85, in create_ui
+    self.customer_tab = CustomerView(self.notebook, self.db)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 8, in __init__
+    self.create_widgets()
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 33, in create_widgets
+    self.tree = ttk.Treeview(self.tab, columns=columns, show="headings", height=10)
+                                               ^^^^^^^
+NameError: name 'columns' is not defined
+2025-10-16 13:42:56,549 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 13:42:56,549 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 13:43:07,151 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:43:07,207 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:43:07,207 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:43:07,296 - root - ERROR - ❌ Lỗi đăng nhập: 'HotelManagementApp' object has no attribute 'room_tab'
+2025-10-16 13:43:11,961 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-16 13:48:10,802 - __main__ - INFO - ==================================================
+2025-10-16 13:48:10,802 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 13:48:10,802 - __main__ - INFO - ==================================================
+2025-10-16 13:48:10,802 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 13:48:10,802 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 13:48:10,802 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 13:48:10,802 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 13:48:10,802 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 13:48:10,953 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 13:48:10,953 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 13:48:10,953 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 13:48:10,953 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 13:48:11,488 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 13:48:11,488 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 13:48:11,644 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 13:48:11,749 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 13:48:11,806 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 13:48:11,864 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 13:48:11,932 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 13:48:12,005 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 13:48:12,005 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 13:48:12,288 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 13:48:12,288 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 13:48:12,288 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 13:48:12,289 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 13:48:12,289 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 13:48:12,405 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 13:48:12,692 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: name 'columns' is not defined
+Traceback (most recent call last):
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/main.py", line 85, in create_ui
+    self.customer_tab = CustomerView(self.notebook, self.db)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 8, in __init__
+    self.create_widgets()
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 33, in create_widgets
+    self.tree = ttk.Treeview(self.tab, columns=columns, show="headings", height=10)
+                                               ^^^^^^^
+NameError: name 'columns' is not defined
+2025-10-16 13:48:12,703 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 13:48:12,704 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 13:48:37,329 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:48:37,373 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:48:37,373 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:48:37,450 - root - ERROR - ❌ Lỗi đăng nhập: 'HotelManagementApp' object has no attribute 'room_tab'
+2025-10-16 13:53:50,071 - __main__ - INFO - ==================================================
+2025-10-16 13:53:50,071 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 13:53:50,071 - __main__ - INFO - ==================================================
+2025-10-16 13:53:50,071 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 13:53:50,071 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 13:53:50,071 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 13:53:50,071 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 13:53:50,071 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 13:53:50,204 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 13:53:50,205 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 13:53:50,205 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 13:53:50,205 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 13:53:50,635 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 13:53:50,635 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 13:53:50,796 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 13:53:50,851 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 13:53:50,920 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 13:53:50,976 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 13:53:51,050 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 13:53:51,123 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 13:53:51,123 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 13:53:51,373 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 13:53:51,374 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 13:53:51,374 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 13:53:51,374 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 13:53:51,374 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 13:53:51,434 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 13:53:51,690 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: name 'columns' is not defined
+Traceback (most recent call last):
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/main.py", line 91, in create_ui
+    self.customer_tab = CustomerView(self.notebook, self.db)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 8, in __init__
+    self.create_widgets()
+  File "/home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1/views/customer_view.py", line 33, in create_widgets
+    self.tree = ttk.Treeview(self.tab, columns=columns, show="headings", height=10)
+                                               ^^^^^^^
+NameError: name 'columns' is not defined
+2025-10-16 13:53:51,697 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 13:53:51,697 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 13:54:04,038 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:54:04,096 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:54:04,096 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:54:04,188 - root - ERROR - ❌ Lỗi đăng nhập: Slave index 1 out of bounds
+2025-10-16 13:57:18,083 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-16 13:57:23,262 - __main__ - INFO - ==================================================
+2025-10-16 13:57:23,262 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-16 13:57:23,262 - __main__ - INFO - ==================================================
+2025-10-16 13:57:23,262 - __main__ - INFO - Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2025-10-16 13:57:23,262 - __main__ - INFO - Current directory: /home/khanhromvn/Documents/Coding/QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1
+2025-10-16 13:57:23,262 - __main__ - INFO - Tkinter version: 8.6
+2025-10-16 13:57:23,262 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-16 13:57:23,262 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-16 13:57:23,391 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-16 13:57:23,391 - __main__ - INFO - 📺 Kích thước màn hình: 3286x1080
+2025-10-16 13:57:23,391 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-16 13:57:23,391 - root - INFO - 🔗 Đang kết nối database: ep-mute-band-a13to8vt-pooler.ap-southeast-1.aws.neon.tech/QuanLyKhachSan
+2025-10-16 13:57:23,715 - root - INFO - ✅ Kết nối database thành công
+2025-10-16 13:57:23,715 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-16 13:57:23,813 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-16 13:57:23,857 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-16 13:57:23,902 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-16 13:57:23,991 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-16 13:57:24,030 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-16 13:57:24,068 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-16 13:57:24,068 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-16 13:57:24,235 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-16 13:57:24,235 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-16 13:57:24,235 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-16 13:57:24,235 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-16 13:57:24,235 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-16 13:57:24,276 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-16 13:57:25,090 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-16 13:57:25,090 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-16 13:57:25,090 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-16 13:57:33,305 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-16 13:57:33,376 - root - INFO - ✅ Đăng nhập thành công: Admin System (AD001)
+2025-10-16 13:57:33,376 - __main__ - INFO - ✅ Đăng nhập thành công: Admin System (AD001) - Vai trò: Trưởng phòng
+2025-10-16 13:58:00,113 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-21 20:30:12,386 - __main__ - INFO - ==================================================
+2025-10-21 20:30:12,445 - __main__ - INFO - ==================================================
+2025-10-21 20:30:12,445 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-21 20:30:12,445 - __main__ - INFO - Current directory: E:\test
+2025-10-21 20:30:12,446 - __main__ - INFO - Tkinter version: 8.6
+2025-10-21 20:30:26,273 - __main__ - INFO - ==================================================
+2025-10-21 20:30:26,276 - __main__ - INFO - ==================================================
+2025-10-21 20:30:26,276 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-21 20:30:26,276 - __main__ - INFO - Current directory: E:\test
+2025-10-21 20:30:26,276 - __main__ - INFO - Tkinter version: 8.6
+2025-10-21 20:34:41,928 - __main__ - INFO - ==================================================
+2025-10-21 20:34:41,930 - __main__ - INFO - ==================================================
+2025-10-21 20:34:41,930 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-21 20:34:41,930 - __main__ - INFO - Current directory: E:\test
+2025-10-21 20:34:41,930 - __main__ - INFO - Tkinter version: 8.6
+2025-10-21 20:34:49,829 - __main__ - INFO - ==================================================
+2025-10-21 20:34:49,831 - __main__ - INFO - ==================================================
+2025-10-21 20:34:49,831 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-21 20:34:49,831 - __main__ - INFO - Current directory: E:\test
+2025-10-21 20:34:49,831 - __main__ - INFO - Tkinter version: 8.6
+2025-10-21 20:47:03,934 - __main__ - INFO - ==================================================
+2025-10-21 20:47:03,936 - __main__ - INFO - ==================================================
+2025-10-21 20:47:03,936 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-21 20:47:03,936 - __main__ - INFO - Current directory: E:\test
+2025-10-21 20:47:03,936 - __main__ - INFO - Tkinter version: 8.6
+2025-10-21 20:47:31,323 - __main__ - INFO - ==================================================
+2025-10-21 20:47:31,326 - __main__ - INFO - ==================================================
+2025-10-21 20:47:31,327 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-21 20:47:31,327 - __main__ - INFO - Current directory: E:\test
+2025-10-21 20:47:31,327 - __main__ - INFO - Tkinter version: 8.6
+2025-10-21 20:48:33,703 - __main__ - INFO - ==================================================
+2025-10-21 20:48:33,705 - __main__ - INFO - ==================================================
+2025-10-21 20:48:33,706 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-21 20:48:33,706 - __main__ - INFO - Current directory: E:\test
+2025-10-21 20:48:33,706 - __main__ - INFO - Tkinter version: 8.6
+2025-10-21 20:50:21,535 - __main__ - INFO - ==================================================
+2025-10-21 20:50:21,538 - __main__ - INFO - ==================================================
+2025-10-21 20:50:21,538 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-21 20:50:21,538 - __main__ - INFO - Current directory: E:\test
+2025-10-21 20:50:21,538 - __main__ - INFO - Tkinter version: 8.6
+2025-10-21 20:53:31,506 - __main__ - INFO - ==================================================
+2025-10-21 20:53:31,506 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-21 20:53:31,506 - __main__ - INFO - ==================================================
+2025-10-21 20:53:31,506 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-21 20:53:31,507 - __main__ - INFO - Current directory: E:\test
+2025-10-21 20:53:31,507 - __main__ - INFO - Tkinter version: 8.6
+2025-10-21 20:53:31,507 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-21 20:53:31,507 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-21 20:53:31,556 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-21 20:53:31,557 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-21 20:53:31,557 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-21 20:53:31,557 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-21 20:53:31,592 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-21 20:53:31,593 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-21 20:53:31,597 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-21 20:53:31,600 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-21 20:53:31,603 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-21 20:53:31,607 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-21 20:53:31,611 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-21 20:53:31,611 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-21 20:53:31,611 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-21 20:53:31,614 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-21 20:53:31,614 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-21 20:53:31,614 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-21 20:53:31,615 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-21 20:53:31,616 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-21 20:53:31,621 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-21 20:53:31,795 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-21 20:53:31,795 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-21 20:53:31,796 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-21 20:54:32,202 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-21 20:54:32,202 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-21 20:55:38,827 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:02:13,261 - __main__ - INFO - ==================================================
+2025-10-27 22:02:13,261 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:02:13,262 - __main__ - INFO - ==================================================
+2025-10-27 22:02:13,262 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:02:13,262 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main
+2025-10-27 22:02:13,263 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:02:13,263 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:02:13,263 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:02:13,768 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:02:13,768 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:02:13,768 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:02:13,768 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:02:13,818 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:02:13,819 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:02:13,824 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:02:13,827 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:02:13,831 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:02:13,834 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:02:13,837 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:02:13,838 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:02:13,838 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:02:13,841 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:02:13,842 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:02:13,842 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:02:13,843 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:02:13,845 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:02:13,855 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:02:14,115 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:02:14,116 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:02:14,116 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:02:36,634 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@gmail.com
+2025-10-27 22:02:36,634 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:03:07,433 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:03:07,433 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:03:24,825 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:03:24,825 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:03:28,345 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:03:28,345 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:03:51,393 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:03:51,393 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:04:08,977 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:04:08,977 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:04:11,084 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:06:36,744 - __main__ - INFO - ==================================================
+2025-10-27 22:06:36,745 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:06:36,745 - __main__ - INFO - ==================================================
+2025-10-27 22:06:36,745 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:06:36,745 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main
+2025-10-27 22:06:36,745 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:06:36,745 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:06:36,745 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:06:36,789 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:06:36,789 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:06:36,790 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:06:36,790 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:06:36,822 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:06:36,822 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:06:36,827 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:06:36,829 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:06:36,832 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:06:36,836 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:06:36,840 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:06:36,840 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:06:36,841 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:06:36,843 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:06:36,844 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:06:36,844 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:06:36,845 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:06:36,846 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:06:36,850 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:06:36,992 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:06:36,993 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:06:36,993 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:06:56,033 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:06:56,034 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:07:38,673 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:07:38,673 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:07:41,058 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:08:35,157 - __main__ - INFO - ==================================================
+2025-10-27 22:08:35,157 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:08:35,157 - __main__ - INFO - ==================================================
+2025-10-27 22:08:35,157 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:08:35,157 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main
+2025-10-27 22:08:35,157 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:08:35,157 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:08:35,157 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:08:35,204 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:08:35,204 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:08:35,204 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:08:35,204 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:08:35,238 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:08:35,238 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:08:35,242 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:08:35,246 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:08:35,248 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:08:35,251 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:08:35,254 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:08:35,255 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:08:35,255 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:08:35,257 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:08:35,257 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:08:35,257 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:08:35,258 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:08:35,259 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:08:35,264 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:08:35,406 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:08:35,406 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:08:35,406 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:08:51,817 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:08:51,818 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:09:08,840 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:12:00,380 - __main__ - INFO - ==================================================
+2025-10-27 22:12:00,381 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:12:00,381 - __main__ - INFO - ==================================================
+2025-10-27 22:12:00,381 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:12:00,381 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main
+2025-10-27 22:12:00,381 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:12:00,381 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:12:00,381 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:12:00,430 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:12:00,430 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:12:00,430 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:12:00,430 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:12:00,468 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:12:00,469 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:12:00,474 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:12:00,477 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:12:00,480 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:12:00,484 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:12:00,488 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:12:00,488 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:12:00,489 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:12:00,491 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:12:00,491 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:12:00,491 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:12:00,493 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:12:00,493 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:12:00,498 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:12:00,648 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:12:00,649 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:12:00,649 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:12:18,313 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:12:18,314 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:12:24,723 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:15:49,430 - __main__ - INFO - ==================================================
+2025-10-27 22:15:49,431 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:15:49,431 - __main__ - INFO - ==================================================
+2025-10-27 22:15:49,431 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:15:49,431 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main
+2025-10-27 22:15:49,431 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:15:49,431 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:15:49,432 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:15:49,480 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:15:49,481 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:15:49,481 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:15:49,481 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:15:49,522 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:15:49,522 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:15:49,527 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:15:49,530 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:15:49,534 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:15:49,537 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:15:49,541 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:15:49,541 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:15:49,542 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:15:49,544 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:15:49,545 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:15:49,545 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:15:49,547 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:15:49,547 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:15:49,553 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:15:49,718 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: 'HotelManagementApp' object has no attribute 'update_tab_access'
+Traceback (most recent call last):
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main\main.py", line 106, in create_ui
+    self.update_tab_access()
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'HotelManagementApp' object has no attribute 'update_tab_access'
+2025-10-27 22:18:30,207 - __main__ - INFO - ==================================================
+2025-10-27 22:18:30,207 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:18:30,207 - __main__ - INFO - ==================================================
+2025-10-27 22:18:30,207 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:18:30,207 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main
+2025-10-27 22:18:30,208 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:18:30,208 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:18:30,208 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:18:30,252 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:18:30,253 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:18:30,253 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:18:30,253 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:18:30,285 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:18:30,285 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:18:30,288 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:18:30,291 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:18:30,295 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:18:30,298 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:18:30,302 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:18:30,302 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:18:30,302 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:18:30,304 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:18:30,304 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:18:30,304 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:18:30,305 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:18:30,306 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:18:30,310 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:18:30,469 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:18:30,469 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:18:30,469 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:18:41,737 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:18:41,738 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:18:45,295 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:20:43,942 - __main__ - INFO - ==================================================
+2025-10-27 22:20:43,942 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:20:43,943 - __main__ - INFO - ==================================================
+2025-10-27 22:20:43,943 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:20:43,943 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main
+2025-10-27 22:20:43,943 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:20:43,943 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:20:43,943 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:20:43,990 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:20:43,990 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:20:43,990 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:20:43,991 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:20:44,023 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:20:44,023 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:20:44,028 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:20:44,030 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:20:44,033 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:20:44,036 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:20:44,039 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:20:44,039 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:20:44,040 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:20:44,042 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:20:44,042 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:20:44,042 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:20:44,044 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:20:44,045 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:20:44,050 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:20:44,210 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:20:44,210 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:20:44,210 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:20:52,634 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:20:52,634 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:20:57,075 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:20:57,076 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:20:59,834 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:20:59,834 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:21:02,117 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:26:08,221 - __main__ - INFO - ==================================================
+2025-10-27 22:26:08,221 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:26:08,221 - __main__ - INFO - ==================================================
+2025-10-27 22:26:08,221 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:26:08,221 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main
+2025-10-27 22:26:08,221 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:26:08,221 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:26:08,221 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:26:08,271 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:26:08,271 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:26:08,271 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:26:08,272 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:26:08,305 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:26:08,305 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:26:08,310 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:26:08,314 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:26:08,316 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:26:08,320 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:26:08,323 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:26:08,323 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:26:08,324 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:26:08,325 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:26:08,325 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:26:08,326 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:26:08,327 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:26:08,328 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:26:08,332 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:26:08,486 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:26:08,486 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:26:08,487 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:26:15,507 - root - INFO - 🔐 Đang thử đăng nhập với email: admin
+2025-10-27 22:26:15,507 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:27:48,524 - __main__ - INFO - ==================================================
+2025-10-27 22:27:48,524 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:27:48,524 - __main__ - INFO - ==================================================
+2025-10-27 22:27:48,524 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:27:48,524 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main
+2025-10-27 22:27:48,525 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:27:48,525 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:27:48,525 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:27:48,571 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:27:48,571 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:27:48,572 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:27:48,572 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:27:48,603 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:27:48,604 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:27:48,608 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:27:48,611 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:27:48,614 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:27:48,617 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:27:48,621 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:27:48,621 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:27:48,621 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:27:48,624 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:27:48,624 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:27:48,624 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:27:48,625 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:27:48,626 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:27:48,630 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:27:48,793 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:27:48,793 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:27:48,793 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:28:04,802 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:28:04,802 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:33:46,310 - __main__ - INFO - ==================================================
+2025-10-27 22:33:46,310 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:33:46,310 - __main__ - INFO - ==================================================
+2025-10-27 22:33:46,310 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:33:46,310 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main
+2025-10-27 22:33:46,310 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:33:46,311 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:33:46,311 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:33:46,681 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:33:46,682 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:33:46,682 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:33:46,682 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:33:46,721 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:33:46,721 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:33:46,727 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:33:46,731 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:33:46,736 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:33:46,739 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:33:46,743 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:33:46,744 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:33:46,744 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:33:46,747 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:33:46,747 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:33:46,747 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:33:46,749 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:33:46,749 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:33:46,755 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:33:46,960 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:33:46,960 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:33:46,960 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:34:03,019 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:34:03,020 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:46:43,550 - __main__ - INFO - ==================================================
+2025-10-27 22:46:43,550 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:46:43,551 - __main__ - INFO - ==================================================
+2025-10-27 22:46:43,551 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:46:43,551 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 22:46:43,551 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:46:43,551 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:46:43,551 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:46:43,601 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:46:43,601 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:46:43,602 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:46:43,602 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:46:43,641 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:46:43,642 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:46:43,647 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:46:43,651 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:46:43,655 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:46:43,660 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:46:43,664 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:46:43,665 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:46:43,665 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:46:43,669 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 22:46:43,669 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:46:43,669 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:46:43,670 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:46:43,671 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:46:43,677 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:46:43,845 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:46:43,846 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:46:43,846 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:47:03,698 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:47:03,698 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:47:07,702 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:47:59,530 - __main__ - INFO - ==================================================
+2025-10-27 22:47:59,530 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:47:59,530 - __main__ - INFO - ==================================================
+2025-10-27 22:47:59,530 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:47:59,530 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 22:47:59,530 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:47:59,531 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:47:59,531 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:47:59,577 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:47:59,577 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:47:59,577 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:47:59,577 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 22:47:59,610 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:47:59,611 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 22:47:59,615 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 22:47:59,618 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 22:47:59,620 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 22:47:59,623 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 22:47:59,626 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 22:47:59,626 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 22:47:59,626 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 22:47:59,628 - root - INFO - 👨‍💼 Tạo tài khoản admin mặc định
+2025-10-27 22:47:59,629 - root - ERROR - ❌ Lỗi kết nối SQL Server: ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK__nhanvien__7A21767307ADE0EC'. Cannot insert duplicate key in object 'dbo.nhanvien'. The duplicate key value is (AD001). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2025-10-27 22:48:01,145 - __main__ - ERROR - ❌ Kết nối database thất bại!
+2025-10-27 22:48:01,152 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:48:01,153 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:48:01,153 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:49:29,054 - __main__ - INFO - ==================================================
+2025-10-27 22:49:29,054 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:49:29,055 - __main__ - INFO - ==================================================
+2025-10-27 22:49:29,055 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:49:29,055 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 22:49:29,055 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:49:29,055 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:49:29,055 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:49:29,100 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:49:29,100 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:49:29,100 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:49:29,100 - root - INFO - 🔗 Đang kết nối SQL Server...
+2025-10-27 22:49:29,133 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:49:29,133 - root - INFO - 🗃️ Đang kiểm tra và tạo bảng (nếu chưa có)...
+2025-10-27 22:49:29,148 - root - INFO - ✅ Các bảng đã được kiểm tra / tạo xong
+2025-10-27 22:49:29,148 - root - INFO - 📝 Kiểm tra và tạo dữ liệu mặc định...
+2025-10-27 22:49:29,150 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:49:29,151 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:49:29,152 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:49:29,153 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:49:29,159 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:49:29,308 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:49:29,308 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:49:29,308 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:49:43,371 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 22:49:43,372 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:49:46,254 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:50:33,854 - __main__ - INFO - ==================================================
+2025-10-27 22:50:33,854 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:50:33,854 - __main__ - INFO - ==================================================
+2025-10-27 22:50:33,855 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:50:33,855 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 22:50:33,855 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:50:33,855 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:50:33,855 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:50:33,909 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:50:33,910 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:50:33,910 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:50:33,910 - root - INFO - 🔗 Đang kết nối SQL Server...
+2025-10-27 22:50:33,952 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:50:33,952 - root - INFO - 🗃️ Đang kiểm tra và tạo bảng (nếu chưa có)...
+2025-10-27 22:50:33,967 - root - INFO - ✅ Các bảng đã được kiểm tra / tạo xong
+2025-10-27 22:50:33,968 - root - INFO - 📝 Kiểm tra và tạo dữ liệu mặc định...
+2025-10-27 22:50:33,970 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:50:33,971 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:50:33,973 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:50:33,974 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:50:33,979 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:50:34,176 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:50:34,177 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:50:34,177 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:51:28,914 - __main__ - INFO - ==================================================
+2025-10-27 22:51:28,914 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:51:28,915 - __main__ - INFO - ==================================================
+2025-10-27 22:51:28,915 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:51:28,915 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 22:51:28,915 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:51:28,915 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:51:28,915 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:51:28,959 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:51:28,959 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:51:28,959 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:51:28,959 - root - INFO - 🔗 Đang kết nối SQL Server...
+2025-10-27 22:51:28,991 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:51:28,991 - root - INFO - 🗃️ Đang kiểm tra và tạo bảng (nếu chưa có)...
+2025-10-27 22:51:29,005 - root - INFO - ✅ Các bảng đã được kiểm tra / tạo xong
+2025-10-27 22:51:29,006 - root - INFO - 📝 Kiểm tra và tạo dữ liệu mặc định...
+2025-10-27 22:51:29,008 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:51:29,008 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:51:29,009 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:51:29,010 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:51:29,014 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:51:29,171 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:51:29,172 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:51:29,172 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:51:45,867 - root - INFO - 🔐 Đang thử đăng nhập với email: quanly@khachsan
+2025-10-27 22:51:45,867 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:51:50,939 - root - INFO - 🔐 Đang thử đăng nhập với email: quanly@khachsan.com
+2025-10-27 22:51:50,940 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:52:13,803 - root - INFO - 🔐 Đang thử đăng nhập với email: quanly@khachsan.com
+2025-10-27 22:52:13,804 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:52:16,853 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 22:52:45,274 - __main__ - INFO - ==================================================
+2025-10-27 22:52:45,274 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 22:52:45,274 - __main__ - INFO - ==================================================
+2025-10-27 22:52:45,274 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 22:52:45,274 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 22:52:45,275 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 22:52:45,275 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 22:52:45,275 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 22:52:45,320 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 22:52:45,320 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 22:52:45,320 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 22:52:45,321 - root - INFO - 🔗 Đang kết nối SQL Server...
+2025-10-27 22:52:45,353 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 22:52:45,353 - root - INFO - 🗃️ Đang kiểm tra và tạo bảng (nếu chưa có)...
+2025-10-27 22:52:45,368 - root - INFO - ✅ Các bảng đã được kiểm tra / tạo xong
+2025-10-27 22:52:45,368 - root - INFO - 📝 Kiểm tra và tạo dữ liệu mặc định...
+2025-10-27 22:52:45,370 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 22:52:45,371 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 22:52:45,372 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 22:52:45,373 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 22:52:45,377 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 22:52:45,536 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 22:52:45,536 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 22:52:45,536 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 22:53:03,836 - root - INFO - 🔐 Đang thử đăng nhập với email: quanly@khachsan.com
+2025-10-27 22:53:03,836 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:56:33,819 - root - INFO - 🔐 Đang thử đăng nhập với email: quanly@khachsan.com
+2025-10-27 22:56:33,819 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 22:56:38,703 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:03:35,428 - __main__ - INFO - ==================================================
+2025-10-27 23:03:35,428 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:03:35,428 - __main__ - INFO - ==================================================
+2025-10-27 23:03:35,428 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:03:35,428 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:03:35,428 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:03:35,428 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:03:35,429 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 23:03:35,475 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 23:03:35,475 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:03:35,475 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:03:35,476 - root - ERROR - ❌ Lỗi kết nối database: 'host'
+2025-10-27 23:03:37,224 - __main__ - ERROR - ❌ Kết nối database thất bại!
+2025-10-27 23:03:37,231 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:03:37,231 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 23:03:37,231 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:04:35,634 - __main__ - INFO - ==================================================
+2025-10-27 23:04:35,635 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:04:35,635 - __main__ - INFO - ==================================================
+2025-10-27 23:04:35,635 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:04:35,635 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:04:35,635 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:04:35,635 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:04:35,635 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 23:04:35,679 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 23:04:35,679 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:04:35,679 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:04:35,680 - root - ERROR - ❌ Lỗi kết nối database: 'host'
+2025-10-27 23:04:38,408 - __main__ - ERROR - ❌ Kết nối database thất bại!
+2025-10-27 23:04:38,416 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:04:38,416 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 23:04:38,417 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:08:11,078 - __main__ - INFO - ==================================================
+2025-10-27 23:08:11,078 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:08:11,078 - __main__ - INFO - ==================================================
+2025-10-27 23:08:11,079 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:08:11,079 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:08:11,079 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:08:11,079 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:08:11,079 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 23:08:11,124 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 23:08:11,124 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:08:11,125 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:08:11,125 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:08:11,157 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 23:08:11,157 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:08:11,163 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 23:08:11,166 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 23:08:11,169 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 23:08:11,172 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 23:08:11,175 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 23:08:11,176 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 23:08:11,176 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 23:08:11,179 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 23:08:11,179 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:08:11,179 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:08:11,181 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 23:08:11,181 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 23:08:11,186 - root - INFO - ✅ Đã tạo giao diện đăng nhập trong tab thành công
+2025-10-27 23:08:11,346 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:08:11,346 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:08:11,346 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 23:08:29,843 - root - INFO - 🔐 Đang thử đăng nhập với email: admin@khachsan.com
+2025-10-27 23:08:29,844 - root - ERROR - ❌ Lỗi đăng nhập: ('The SQL contains 0 parameter markers, but 2 parameters were supplied', 'HY000')
+2025-10-27 23:08:32,279 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:16:00,485 - __main__ - INFO - ==================================================
+2025-10-27 23:16:00,485 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:16:00,485 - __main__ - INFO - ==================================================
+2025-10-27 23:16:00,485 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:16:00,486 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:16:00,486 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:16:00,486 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:16:00,486 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 23:16:00,548 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 23:16:00,549 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:16:00,549 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:16:00,549 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:16:00,584 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 23:16:00,584 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:16:00,588 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 23:16:00,592 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 23:16:00,595 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 23:16:00,598 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 23:16:00,602 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 23:16:00,602 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 23:16:00,603 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 23:16:00,605 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 23:16:00,605 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:16:00,605 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:16:00,606 - root - INFO - 🔐 Khởi tạo LoginView trong tab
+2025-10-27 23:16:00,607 - root - INFO - 🎨 Đang tạo giao diện đăng nhập trong tab...
+2025-10-27 23:16:00,614 - root - ERROR - ❌ Lỗi tạo giao diện đăng nhập: 'LoginView' object has no attribute 'logout'
+2025-10-27 23:16:03,825 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:16:03,825 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:16:03,825 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 23:16:09,406 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:17:10,495 - __main__ - INFO - ==================================================
+2025-10-27 23:17:10,495 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:17:10,495 - __main__ - INFO - ==================================================
+2025-10-27 23:17:10,495 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:17:10,495 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:17:10,495 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:17:10,495 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:17:10,495 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 23:17:10,542 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 23:17:10,542 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:17:10,542 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:17:10,543 - root - INFO - 🔗 Đang kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:17:10,576 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-27 23:17:10,576 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:17:10,581 - root - INFO - ✅ Đã tạo bảng 1/5
+2025-10-27 23:17:10,584 - root - INFO - ✅ Đã tạo bảng 2/5
+2025-10-27 23:17:10,586 - root - INFO - ✅ Đã tạo bảng 3/5
+2025-10-27 23:17:10,590 - root - INFO - ✅ Đã tạo bảng 4/5
+2025-10-27 23:17:10,593 - root - INFO - ✅ Đã tạo bảng 5/5
+2025-10-27 23:17:10,593 - root - INFO - ✅ Hoàn thành tạo bảng
+2025-10-27 23:17:10,593 - root - INFO - 📝 Đang tạo dữ liệu mặc định...
+2025-10-27 23:17:10,596 - root - INFO - ✅ Hoàn thành tạo dữ liệu mặc định
+2025-10-27 23:17:10,596 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:17:10,596 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:17:10,772 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:17:10,772 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:17:10,772 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 23:17:34,450 - views.login_view - INFO - Đăng nhập thành công: System (AD001) - Trưởng phòng
+2025-10-27 23:17:35,729 - __main__ - INFO - ✅ Đăng nhập thành công: System (AD001) - Vai trò: Trưởng phòng
+2025-10-27 23:18:06,327 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:22:08,332 - __main__ - INFO - ==================================================
+2025-10-27 23:22:08,332 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:22:08,332 - __main__ - INFO - ==================================================
+2025-10-27 23:22:08,332 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:22:08,332 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:22:08,332 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:22:08,332 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:22:08,332 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 23:22:08,377 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 23:22:08,377 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:22:08,377 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:22:08,377 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:22:08,410 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:22:08,410 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:22:08,415 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:22:08,418 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:22:08,422 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:22:08,425 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:22:08,429 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:22:08,429 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:22:08,429 - root - INFO - 📝 Tạo dữ liệu mặc định...
+2025-10-27 23:22:08,431 - root - INFO - ✅ Dữ liệu mặc định hoàn tất
+2025-10-27 23:22:08,432 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:22:08,432 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:22:08,594 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:22:08,595 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:22:08,595 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 23:22:13,026 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:23:06,266 - __main__ - INFO - ==================================================
+2025-10-27 23:23:06,266 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:23:06,266 - __main__ - INFO - ==================================================
+2025-10-27 23:23:06,266 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:23:06,266 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:23:06,266 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:23:06,266 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:23:06,267 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 23:23:06,312 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 23:23:06,312 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:23:06,312 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:23:06,312 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:23:06,345 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:23:06,345 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:23:06,350 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:23:06,353 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:23:06,356 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:23:06,359 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:23:06,362 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:23:06,362 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:23:06,362 - root - INFO - 📝 Tạo dữ liệu mặc định...
+2025-10-27 23:23:06,365 - root - INFO - ✅ Dữ liệu mặc định hoàn tất
+2025-10-27 23:23:06,365 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:23:06,365 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:23:06,533 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:23:06,533 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:23:06,533 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 23:23:09,163 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:23:21,590 - __main__ - INFO - ==================================================
+2025-10-27 23:23:21,591 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:23:21,591 - __main__ - INFO - ==================================================
+2025-10-27 23:23:21,591 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:23:21,591 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:23:21,591 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:23:21,591 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:23:21,591 - __main__ - INFO - 🖥️ Đang tạo cửa sổ chính...
+2025-10-27 23:23:21,637 - __main__ - INFO - ✅ Đã tạo cửa sổ chính: .
+2025-10-27 23:23:21,637 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:23:21,637 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:23:21,637 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:23:21,658 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:23:21,658 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:23:21,662 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:23:21,665 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:23:21,668 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:23:21,671 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:23:21,674 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:23:21,674 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:23:21,674 - root - INFO - 📝 Tạo dữ liệu mặc định...
+2025-10-27 23:23:21,675 - root - INFO - ✅ Dữ liệu mặc định hoàn tất
+2025-10-27 23:23:21,675 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:23:21,675 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:23:21,847 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:23:21,847 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:23:21,847 - __main__ - INFO - 🏃 Ứng dụng đang chạy...
+2025-10-27 23:23:25,431 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:24:42,527 - __main__ - INFO - ============================================================
+2025-10-27 23:24:42,527 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:24:42,527 - __main__ - INFO - ============================================================
+2025-10-27 23:24:42,527 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:24:42,527 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:24:42,528 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:24:42,528 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:24:42,573 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:24:42,573 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:24:42,573 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:24:42,611 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:24:42,612 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:24:42,616 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:24:42,619 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:24:42,623 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:24:42,626 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:24:42,629 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:24:42,630 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:24:42,630 - root - INFO - 📝 Tạo dữ liệu mặc định...
+2025-10-27 23:24:42,632 - root - INFO - ✅ Dữ liệu mặc định hoàn tất
+2025-10-27 23:24:42,632 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:24:42,632 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:24:42,833 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:24:42,834 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:24:48,334 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:25:07,989 - __main__ - INFO - ============================================================
+2025-10-27 23:25:07,990 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:25:07,990 - __main__ - INFO - ============================================================
+2025-10-27 23:25:07,990 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:25:07,990 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:25:07,990 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:25:07,990 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:25:08,036 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:25:08,036 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:25:08,036 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:25:08,067 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:25:08,068 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:25:08,072 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:25:08,074 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:25:08,077 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:25:08,080 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:25:08,084 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:25:08,085 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:25:08,085 - root - INFO - 📝 Tạo dữ liệu mặc định...
+2025-10-27 23:25:08,087 - root - INFO - ✅ Dữ liệu mặc định hoàn tất
+2025-10-27 23:25:08,087 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:25:08,087 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:25:08,247 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:25:08,247 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:25:25,687 - views.login_view - INFO - Đăng nhập thành công: System (AD001) - Trưởng phòng
+2025-10-27 23:25:26,802 - __main__ - INFO - ✅ Đăng nhập thành công: System (AD001) - Vai trò: Trưởng phòng
+2025-10-27 23:27:24,741 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:28:57,956 - __main__ - INFO - ============================================================
+2025-10-27 23:28:57,956 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:28:57,956 - __main__ - INFO - ============================================================
+2025-10-27 23:28:57,956 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:28:57,957 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:28:57,957 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:28:57,957 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:28:58,049 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:28:58,049 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:28:58,050 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:28:58,116 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:28:58,116 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:28:58,128 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:28:58,131 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:28:58,135 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:28:58,138 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:28:58,142 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:28:58,142 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:28:58,142 - root - INFO - 📝 Tạo dữ liệu mặc định...
+2025-10-27 23:28:58,144 - root - INFO - ✅ Dữ liệu mặc định hoàn tất
+2025-10-27 23:28:58,144 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:28:58,144 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:28:58,312 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:28:58,312 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:29:22,478 - views.login_view - INFO - Đăng nhập thành công: System (AD001) - Trưởng phòng
+2025-10-27 23:29:23,442 - __main__ - INFO - ✅ Đăng nhập thành công: System (AD001) - Vai trò: Trưởng phòng
+2025-10-27 23:35:23,706 - __main__ - INFO - ============================================================
+2025-10-27 23:35:23,706 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:35:23,706 - __main__ - INFO - ============================================================
+2025-10-27 23:35:23,706 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:35:23,706 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:35:23,706 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:35:23,707 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:35:23,753 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:35:23,754 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:35:23,754 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:35:23,788 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:35:23,788 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:35:23,792 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:35:23,795 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:35:23,798 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:35:23,801 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:35:23,804 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:35:23,805 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:35:23,805 - root - INFO - 📝 Tạo dữ liệu mặc định...
+2025-10-27 23:35:23,807 - root - INFO - ✅ Dữ liệu mặc định hoàn tất
+2025-10-27 23:35:23,807 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:35:23,807 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:35:23,978 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:35:23,979 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:35:39,182 - views.login_view - INFO - Đăng nhập thành công: System (AD001) - Trưởng phòng
+2025-10-27 23:35:40,459 - __main__ - INFO - ✅ Đăng nhập thành công: System (AD001) - Vai trò: Trưởng phòng
+2025-10-27 23:36:07,143 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:37:58,092 - __main__ - INFO - ============================================================
+2025-10-27 23:37:58,092 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:37:58,092 - __main__ - INFO - ============================================================
+2025-10-27 23:37:58,092 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:37:58,092 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:37:58,092 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:37:58,092 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:37:58,140 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:37:58,140 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:37:58,140 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:37:58,173 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:37:58,174 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:37:58,180 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:37:58,184 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:37:58,187 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:37:58,191 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:37:58,194 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:37:58,194 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:37:58,195 - root - INFO - 📝 Tạo dữ liệu mặc định...
+2025-10-27 23:37:58,197 - root - INFO - ✅ Dữ liệu mặc định hoàn tất
+2025-10-27 23:37:58,197 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:37:58,197 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:37:58,367 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:37:58,367 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:38:11,199 - views.login_view - INFO - Đăng nhập thành công: System (AD001) - Trưởng phòng
+2025-10-27 23:38:12,249 - __main__ - INFO - ✅ Đăng nhập thành công: System (AD001) - Vai trò: Trưởng phòng
+2025-10-27 23:43:41,905 - __main__ - INFO - ============================================================
+2025-10-27 23:43:41,905 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:43:41,905 - __main__ - INFO - ============================================================
+2025-10-27 23:43:41,905 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:43:41,906 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:43:41,906 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:43:41,906 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:43:41,952 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:43:41,953 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:43:41,953 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:43:41,988 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:43:41,988 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:43:41,992 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:43:41,996 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:43:41,999 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:43:42,002 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:43:42,006 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:43:42,006 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:43:42,006 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:43:42,006 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:43:42,179 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:43:42,179 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:43:59,775 - views.login_view - INFO - Đăng nhập thành công: System (AD001) - Trưởng phòng
+2025-10-27 23:44:00,955 - __main__ - INFO - ✅ Đăng nhập thành công: System (AD001) - Vai trò: Trưởng phòng
+2025-10-27 23:45:09,319 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:45:51,037 - __main__ - INFO - ============================================================
+2025-10-27 23:45:51,037 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:45:51,037 - __main__ - INFO - ============================================================
+2025-10-27 23:45:51,038 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:45:51,038 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:45:51,038 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:45:51,038 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:45:51,102 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:45:51,102 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:45:51,102 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:45:51,134 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:45:51,134 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:45:51,137 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:45:51,140 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:45:51,143 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:45:51,146 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:45:51,150 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:45:51,150 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:45:51,150 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:45:51,150 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:45:51,333 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:45:51,333 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:46:06,335 - views.login_view - INFO - Đăng nhập thành công: System (AD001) - Trưởng phòng
+2025-10-27 23:46:07,578 - __main__ - INFO - ✅ Đăng nhập thành công: System (AD001) - Vai trò: Trưởng phòng
+2025-10-27 23:51:10,947 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-27 23:54:33,709 - __main__ - INFO - ============================================================
+2025-10-27 23:54:33,709 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-27 23:54:33,709 - __main__ - INFO - ============================================================
+2025-10-27 23:54:33,709 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-27 23:54:33,709 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-27 23:54:33,709 - __main__ - INFO - Tkinter version: 8.6
+2025-10-27 23:54:33,709 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-27 23:54:33,755 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-27 23:54:33,755 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-27 23:54:33,755 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/quanlykhachsan
+2025-10-27 23:54:33,790 - root - INFO - ✅ Kết nối thành công!
+2025-10-27 23:54:33,790 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-27 23:54:33,794 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-27 23:54:33,797 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-27 23:54:33,800 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-27 23:54:33,802 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-27 23:54:33,805 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-27 23:54:33,806 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-27 23:54:33,806 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-27 23:54:33,806 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-27 23:54:33,994 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-27 23:54:33,994 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-27 23:54:47,671 - views.login_view - INFO - Đăng nhập thành công: System (AD001) - Trưởng phòng
+2025-10-27 23:54:48,796 - __main__ - INFO - ✅ Đăng nhập thành công: System (AD001) - Vai trò: Trưởng phòng
+2025-10-28 00:10:54,806 - __main__ - INFO - ============================================================
+2025-10-28 00:10:54,806 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 00:10:54,806 - __main__ - INFO - ============================================================
+2025-10-28 00:10:54,806 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 00:10:54,806 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 00:10:54,806 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 00:10:54,806 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 00:10:54,856 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 00:10:54,856 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 00:10:54,856 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/QuanLyKhachSan1
+2025-10-28 00:10:54,882 - root - ERROR - ❌ Lỗi kết nối SQL Server: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'Admin'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'Admin'. (18456)")
+2025-10-28 00:10:56,323 - __main__ - ERROR - ❌ Kết nối database thất bại!
+2025-10-28 00:10:56,331 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 00:10:56,331 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 00:13:18,243 - __main__ - INFO - ============================================================
+2025-10-28 00:13:18,243 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 00:13:18,243 - __main__ - INFO - ============================================================
+2025-10-28 00:13:18,244 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 00:13:18,244 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 00:13:18,244 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 00:13:18,244 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 00:13:18,291 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 00:13:18,291 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 00:13:18,291 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/QuanLyKhachSan1
+2025-10-28 00:13:18,315 - root - ERROR - ❌ Lỗi kết nối SQL Server: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'Admin'.  Reason: The password of the account must be changed. (18488) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'Admin'.  Reason: The password of the account must be changed. (18488)")
+2025-10-28 00:13:20,181 - __main__ - ERROR - ❌ Kết nối database thất bại!
+2025-10-28 00:13:20,189 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 00:13:20,189 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 00:14:20,103 - __main__ - INFO - ============================================================
+2025-10-28 00:14:20,103 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 00:14:20,103 - __main__ - INFO - ============================================================
+2025-10-28 00:14:20,103 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 00:14:20,103 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 00:14:20,104 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 00:14:20,104 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 00:14:20,151 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 00:14:20,151 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 00:14:20,151 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/QuanLyKhachSan1
+2025-10-28 00:14:20,171 - root - ERROR - ❌ Lỗi kết nối SQL Server: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'Admin'.  Reason: The password of the account must be changed. (18488) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'Admin'.  Reason: The password of the account must be changed. (18488)")
+2025-10-28 00:14:35,235 - __main__ - ERROR - ❌ Kết nối database thất bại!
+2025-10-28 00:14:35,244 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 00:14:35,244 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 09:46:25,833 - __main__ - INFO - ============================================================
+2025-10-28 09:46:25,833 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 09:46:25,833 - __main__ - INFO - ============================================================
+2025-10-28 09:46:25,833 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 09:46:25,833 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 09:46:25,834 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 09:46:25,834 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 09:46:25,910 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 09:46:25,910 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 09:46:25,910 - root - INFO - 🔗 Kết nối SQL Server: LAPTOP-DN604OJP/QuanLyKhachSan1
+2025-10-28 09:46:25,955 - root - INFO - ✅ Kết nối thành công!
+2025-10-28 09:46:25,955 - root - INFO - 🗃️ Đang tạo bảng...
+2025-10-28 09:46:25,963 - root - INFO - ✅ Tạo bảng 1/5 thành công
+2025-10-28 09:46:25,967 - root - INFO - ✅ Tạo bảng 2/5 thành công
+2025-10-28 09:46:25,971 - root - INFO - ✅ Tạo bảng 3/5 thành công
+2025-10-28 09:46:25,976 - root - INFO - ✅ Tạo bảng 4/5 thành công
+2025-10-28 09:46:25,982 - root - INFO - ✅ Tạo bảng 5/5 thành công
+2025-10-28 09:46:25,983 - root - INFO - ✅ Hoàn tất tạo bảng
+2025-10-28 09:46:25,983 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-28 09:46:25,983 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-28 09:46:26,145 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-28 09:46:26,145 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 09:47:05,269 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 09:52:10,880 - __main__ - INFO - ============================================================
+2025-10-28 09:52:10,880 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 09:52:10,880 - __main__ - INFO - ============================================================
+2025-10-28 09:52:10,880 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 09:52:10,880 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 09:52:10,880 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 09:52:10,881 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 09:52:10,927 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 09:52:10,927 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 09:52:10,949 - root - ERROR - ❌ Lỗi kết nối SQL Server: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'quanlykhachsan'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'quanlykhachsan'. (18456)")
+2025-10-28 09:52:12,675 - __main__ - ERROR - ❌ Kết nối database thất bại!
+2025-10-28 09:52:12,683 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 09:52:12,683 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 09:55:08,081 - __main__ - INFO - ============================================================
+2025-10-28 09:55:08,081 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 09:55:08,081 - __main__ - INFO - ============================================================
+2025-10-28 09:55:08,081 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 09:55:08,082 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 09:55:08,082 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 09:55:08,082 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 09:55:08,129 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 09:55:08,129 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 09:55:08,149 - root - ERROR - ❌ Lỗi kết nối SQL Server: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'quanlykhachsan'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'quanlykhachsan'. (18456)")
+2025-10-28 09:55:12,475 - __main__ - ERROR - ❌ Kết nối database thất bại!
+2025-10-28 09:55:12,482 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 09:55:12,482 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 09:55:51,133 - __main__ - INFO - ============================================================
+2025-10-28 09:55:51,134 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 09:55:51,134 - __main__ - INFO - ============================================================
+2025-10-28 09:55:51,134 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 09:55:51,134 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 09:55:51,134 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 09:55:51,134 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 09:55:51,180 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 09:55:51,180 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 09:55:51,212 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-28 09:55:51,212 - root - INFO - 🗃️ Kiểm tra và tạo bảng nếu cần...
+2025-10-28 09:55:51,228 - root - INFO - ✅ Hoàn tất tạo bảng!
+2025-10-28 09:55:51,228 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-28 09:55:51,229 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-28 09:55:51,479 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-28 09:55:51,480 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 09:56:15,533 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 09:58:13,152 - __main__ - INFO - ============================================================
+2025-10-28 09:58:13,152 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 09:58:13,152 - __main__ - INFO - ============================================================
+2025-10-28 09:58:13,152 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 09:58:13,152 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 09:58:13,153 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 09:58:13,153 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 09:58:13,198 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 09:58:13,198 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 09:58:13,233 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-28 09:58:13,234 - root - INFO - 🗃️ Kiểm tra và tạo bảng nếu cần...
+2025-10-28 09:58:13,249 - root - INFO - ✅ Hoàn tất tạo bảng!
+2025-10-28 09:58:13,250 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-28 09:58:13,250 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-28 09:58:13,412 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-28 09:58:13,412 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 09:58:18,240 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 10:00:35,271 - __main__ - INFO - ============================================================
+2025-10-28 10:00:35,271 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 10:00:35,271 - __main__ - INFO - ============================================================
+2025-10-28 10:00:35,271 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 10:00:35,271 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 10:00:35,272 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 10:00:35,272 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 10:00:35,317 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 10:00:35,317 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 10:00:35,351 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-28 10:00:35,351 - root - INFO - 🗃️ Kiểm tra và tạo bảng nếu cần...
+2025-10-28 10:00:35,369 - root - INFO - ✅ Hoàn tất tạo bảng!
+2025-10-28 10:00:35,369 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-28 10:00:35,369 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-28 10:00:35,559 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-28 10:00:35,559 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 10:00:58,357 - views.login_view - WARNING - ❌ Đăng nhập thất bại cho email=admin@khachsan.com
+2025-10-28 10:02:10,923 - views.login_view - WARNING - ❌ Đăng nhập thất bại cho email=admin@khachsan.com
+2025-10-28 10:02:39,112 - views.login_view - WARNING - ❌ Đăng nhập thất bại cho email=admin@khachsan.com
+2025-10-28 10:02:44,959 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 10:04:01,652 - __main__ - INFO - ============================================================
+2025-10-28 10:04:01,652 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 10:04:01,652 - __main__ - INFO - ============================================================
+2025-10-28 10:04:01,653 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 10:04:01,653 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 10:04:01,653 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 10:04:01,653 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 10:04:01,698 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 10:04:01,698 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 10:04:01,731 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-28 10:04:01,731 - root - INFO - 🗃️ Kiểm tra và tạo bảng nếu cần...
+2025-10-28 10:04:01,746 - root - INFO - ✅ Hoàn tất tạo bảng!
+2025-10-28 10:04:01,746 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-28 10:04:01,747 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-28 10:04:01,912 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-28 10:04:01,912 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 10:04:04,809 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 10:08:50,972 - __main__ - INFO - ============================================================
+2025-10-28 10:08:50,973 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 10:08:50,973 - __main__ - INFO - ============================================================
+2025-10-28 10:08:50,973 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 10:08:50,973 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 10:08:50,973 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 10:08:50,973 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 10:08:51,035 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 10:08:51,035 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 10:08:51,077 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-28 10:08:51,077 - root - INFO - 🗃️ Kiểm tra và tạo bảng nếu cần...
+2025-10-28 10:08:51,093 - root - INFO - ✅ Hoàn tất tạo bảng!
+2025-10-28 10:08:51,093 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-28 10:08:51,093 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-28 10:08:51,284 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-28 10:08:51,284 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 10:08:55,037 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 10:14:20,463 - __main__ - INFO - ============================================================
+2025-10-28 10:14:20,463 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 10:14:20,463 - __main__ - INFO - ============================================================
+2025-10-28 10:14:20,463 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 10:14:20,463 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 10:14:20,463 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 10:14:20,463 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 10:14:20,509 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 10:14:20,509 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 10:14:20,542 - root - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-28 10:14:20,542 - root - INFO - 🗃️ Kiểm tra và tạo bảng nếu cần...
+2025-10-28 10:14:20,557 - root - INFO - ✅ Hoàn tất tạo bảng!
+2025-10-28 10:14:20,558 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-28 10:14:20,558 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-28 10:14:20,724 - __main__ - INFO - ✅ Đã tạo giao diện chính thành công
+2025-10-28 10:14:20,724 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 10:14:43,496 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 10:19:54,718 - __main__ - INFO - ============================================================
+2025-10-28 10:19:54,718 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 10:19:54,718 - __main__ - INFO - ============================================================
+2025-10-28 10:19:54,718 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 10:19:54,718 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 10:19:54,718 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 10:19:54,718 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 10:19:54,765 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 10:19:54,765 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 10:19:54,798 - database - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-28 10:19:54,814 - database - INFO - ✅ Bảng đã sẵn sàng
+2025-10-28 10:19:54,814 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-28 10:19:54,815 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-28 10:19:54,891 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: 'Database' object has no attribute 'get_cursor'
+Traceback (most recent call last):
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\main.py", line 90, in create_ui
+    self.employee_tab = EmployeeView(self.notebook, self.db, None)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\views\employee_view.py", line 11, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\views\employee_view.py", line 101, in load_data
+    cur = self.db.get_cursor()
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'get_cursor'. Did you mean: 'get_user'?
+2025-10-28 10:19:54,892 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 10:20:09,103 - views.login_view - WARNING - ❌ Đăng nhập thất bại cho email=admin@khachsan.com
+2025-10-28 10:23:02,499 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 10:27:15,996 - __main__ - INFO - ============================================================
+2025-10-28 10:27:15,996 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 10:27:15,996 - __main__ - INFO - ============================================================
+2025-10-28 10:27:15,996 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 10:27:15,996 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 10:27:15,996 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 10:27:15,997 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 10:27:16,042 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 10:27:16,042 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 10:27:16,088 - database - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-28 10:27:16,107 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-28 10:27:16,108 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-28 10:27:16,184 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: 'Database' object has no attribute 'get_cursor'
+Traceback (most recent call last):
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\main.py", line 90, in create_ui
+    self.employee_tab = EmployeeView(self.notebook, self.db, None)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\views\employee_view.py", line 11, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\views\employee_view.py", line 101, in load_data
+    cur = self.db.get_cursor()
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'get_cursor'
+2025-10-28 10:27:16,185 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 10:27:37,432 - __main__ - INFO - ============================================================
+2025-10-28 10:27:37,432 - __main__ - INFO - ỨNG DỤNG QUẢN LÝ KHÁCH SẠN BẮT ĐẦU CHẠY
+2025-10-28 10:27:37,432 - __main__ - INFO - ============================================================
+2025-10-28 10:27:37,432 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 10:27:37,432 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 10:27:37,433 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 10:27:37,433 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 10:27:37,478 - __main__ - INFO - 📺 Kích thước màn hình: 1536x864
+2025-10-28 10:27:37,478 - __main__ - INFO - 🔗 Đang kết nối database...
+2025-10-28 10:27:37,522 - database - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-28 10:27:37,528 - database - INFO - ✅ Bảng nhanvien sẵn sàng (nếu chưa có).
+2025-10-28 10:27:37,530 - __main__ - INFO - ✅ Kết nối database thành công
+2025-10-28 10:27:37,530 - __main__ - INFO - 🎨 Đang tạo giao diện chính
+2025-10-28 10:27:37,603 - __main__ - ERROR - ❌ Lỗi tạo giao diện chính: 'Database' object has no attribute 'get_cursor'
+Traceback (most recent call last):
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\main.py", line 90, in create_ui
+    self.employee_tab = EmployeeView(self.notebook, self.db, None)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\views\employee_view.py", line 11, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\views\employee_view.py", line 101, in load_data
+    cur = self.db.get_cursor()
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'get_cursor'
+2025-10-28 10:27:37,605 - __main__ - INFO - 🔄 Bắt đầu vòng lặp chính
+2025-10-28 10:27:39,518 - __main__ - INFO - 👋 Ứng dụng đã đóng
+2025-10-28 10:28:38,217 - __main__ - INFO - === STARTING HOTEL MANAGEMENT APP ===
+2025-10-28 10:28:38,217 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-28 10:28:38,217 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-28 10:28:38,217 - __main__ - INFO - Tkinter version: 8.6
+2025-10-28 10:28:38,217 - __main__ - INFO - 🚀 Khởi tạo ứng dụng Quản lý Khách sạn
+2025-10-28 10:28:38,306 - database - INFO - ✅ Kết nối SQL Server thành công!
+2025-10-28 10:28:38,313 - database - INFO - ✅ Bảng nhanvien sẵn sàng (nếu chưa có).
+2025-10-28 10:28:38,394 - __main__ - ERROR - Lỗi khởi tạo app: 'Database' object has no attribute 'get_cursor'
+Traceback (most recent call last):
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\main.py", line 54, in __init__
+    self.create_tabs()
+    ~~~~~~~~~~~~~~~~^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\main.py", line 66, in create_tabs
+    self.employee_tab = EmployeeView(self.notebook, self.db, None)
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\views\employee_view.py", line 11, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "e:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222\views\employee_view.py", line 101, in load_data
+    cur = self.db.get_cursor()
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'get_cursor'
+2025-10-29 15:42:56,764 - __main__ - INFO - ==================================================
+2025-10-29 15:42:56,768 - __main__ - INFO - ==================================================
+2025-10-29 15:42:56,768 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-29 15:42:56,768 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-29 15:42:56,768 - __main__ - INFO - Tkinter version: 8.6
+2025-10-29 16:05:14,461 - __main__ - INFO - ==================================================
+2025-10-29 16:05:14,464 - __main__ - INFO - ==================================================
+2025-10-29 16:05:14,464 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-10-29 16:05:14,464 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-10-29 16:05:14,465 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 20:24:49,035 - __main__ - INFO - ==================================================
+2025-11-02 20:24:49,113 - __main__ - INFO - ==================================================
+2025-11-02 20:24:49,113 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 20:24:49,113 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 20:24:49,114 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 20:30:43,873 - __main__ - INFO - ==================================================
+2025-11-02 20:30:43,876 - __main__ - INFO - ==================================================
+2025-11-02 20:30:43,876 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 20:30:43,877 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 20:30:43,877 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 20:34:24,282 - __main__ - INFO - ==================================================
+2025-11-02 20:34:24,284 - __main__ - INFO - ==================================================
+2025-11-02 20:34:24,284 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 20:34:24,284 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 20:34:24,284 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 20:37:33,876 - __main__ - INFO - ==================================================
+2025-11-02 20:37:33,879 - __main__ - INFO - ==================================================
+2025-11-02 20:37:33,879 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 20:37:33,879 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 20:37:33,879 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 20:41:32,973 - __main__ - INFO - ==================================================
+2025-11-02 20:41:32,975 - __main__ - INFO - ==================================================
+2025-11-02 20:41:32,975 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 20:41:32,975 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 20:41:32,976 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 20:44:02,904 - __main__ - INFO - ==================================================
+2025-11-02 20:44:02,906 - __main__ - INFO - ==================================================
+2025-11-02 20:44:02,906 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 20:44:02,906 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 20:44:02,907 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 20:45:15,626 - __main__ - INFO - ==================================================
+2025-11-02 20:45:15,628 - __main__ - INFO - ==================================================
+2025-11-02 20:45:15,628 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 20:45:15,629 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 20:45:15,629 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 20:48:48,007 - __main__ - INFO - ==================================================
+2025-11-02 20:48:48,010 - __main__ - INFO - ==================================================
+2025-11-02 20:48:48,011 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 20:48:48,011 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 20:48:48,011 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 20:52:14,502 - __main__ - INFO - ==================================================
+2025-11-02 20:52:14,504 - __main__ - INFO - ==================================================
+2025-11-02 20:52:14,504 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 20:52:14,505 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 20:52:14,505 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:03:21,617 - __main__ - INFO - ==================================================
+2025-11-02 21:03:21,620 - __main__ - INFO - ==================================================
+2025-11-02 21:03:21,620 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:03:21,620 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:03:21,620 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:09:03,769 - __main__ - INFO - ==================================================
+2025-11-02 21:09:03,772 - __main__ - INFO - ==================================================
+2025-11-02 21:09:03,772 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:09:03,773 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:09:03,773 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:13:05,554 - __main__ - INFO - ==================================================
+2025-11-02 21:13:05,556 - __main__ - INFO - ==================================================
+2025-11-02 21:13:05,557 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:13:05,557 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:13:05,557 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:18:08,587 - __main__ - INFO - ==================================================
+2025-11-02 21:18:08,589 - __main__ - INFO - ==================================================
+2025-11-02 21:18:08,589 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:18:08,589 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:18:08,589 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:21:59,840 - __main__ - INFO - ==================================================
+2025-11-02 21:21:59,843 - __main__ - INFO - ==================================================
+2025-11-02 21:21:59,843 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:21:59,843 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:21:59,843 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:29:54,496 - __main__ - INFO - ==================================================
+2025-11-02 21:29:54,498 - __main__ - INFO - ==================================================
+2025-11-02 21:29:54,498 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:29:54,498 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:29:54,498 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:35:06,567 - __main__ - INFO - ==================================================
+2025-11-02 21:35:06,570 - __main__ - INFO - ==================================================
+2025-11-02 21:35:06,570 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:35:06,571 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:35:06,571 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:37:46,647 - __main__ - INFO - ==================================================
+2025-11-02 21:37:46,649 - __main__ - INFO - ==================================================
+2025-11-02 21:37:46,649 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:37:46,649 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:37:46,650 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:39:09,313 - __main__ - INFO - ==================================================
+2025-11-02 21:39:09,316 - __main__ - INFO - ==================================================
+2025-11-02 21:39:09,316 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:39:09,316 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:39:09,316 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:40:11,560 - __main__ - INFO - ==================================================
+2025-11-02 21:40:11,562 - __main__ - INFO - ==================================================
+2025-11-02 21:40:11,562 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:40:11,563 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:40:11,563 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:43:50,496 - __main__ - INFO - ==================================================
+2025-11-02 21:43:50,499 - __main__ - INFO - ==================================================
+2025-11-02 21:43:50,499 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:43:50,499 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:43:50,500 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:47:50,118 - __main__ - INFO - ==================================================
+2025-11-02 21:47:50,122 - __main__ - INFO - ==================================================
+2025-11-02 21:47:50,122 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:47:50,123 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:47:50,123 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:48:17,966 - __main__ - INFO - ==================================================
+2025-11-02 21:48:17,969 - __main__ - INFO - ==================================================
+2025-11-02 21:48:17,969 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:48:17,969 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:48:17,969 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:48:58,073 - __main__ - INFO - ==================================================
+2025-11-02 21:48:58,075 - __main__ - INFO - ==================================================
+2025-11-02 21:48:58,075 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:48:58,075 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:48:58,076 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:49:30,547 - __main__ - INFO - ==================================================
+2025-11-02 21:49:30,549 - __main__ - INFO - ==================================================
+2025-11-02 21:49:30,549 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:49:30,550 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:49:30,550 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:49:36,105 - __main__ - INFO - ==================================================
+2025-11-02 21:49:36,106 - __main__ - INFO - ==================================================
+2025-11-02 21:49:36,107 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:49:36,107 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:49:36,107 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:50:41,784 - __main__ - INFO - ==================================================
+2025-11-02 21:50:41,786 - __main__ - INFO - ==================================================
+2025-11-02 21:50:41,786 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:50:41,786 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:50:41,786 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:51:08,664 - __main__ - INFO - ==================================================
+2025-11-02 21:51:08,667 - __main__ - INFO - ==================================================
+2025-11-02 21:51:08,667 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:51:08,667 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:51:08,667 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 21:56:15,972 - __main__ - INFO - ==================================================
+2025-11-02 21:56:15,974 - __main__ - INFO - ==================================================
+2025-11-02 21:56:15,974 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 21:56:15,974 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 21:56:15,974 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:04:31,978 - __main__ - INFO - ==================================================
+2025-11-02 22:04:31,981 - __main__ - INFO - ==================================================
+2025-11-02 22:04:31,981 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:04:31,981 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:04:31,981 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:06:56,373 - __main__ - INFO - ==================================================
+2025-11-02 22:06:56,376 - __main__ - INFO - ==================================================
+2025-11-02 22:06:56,376 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:06:56,376 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:06:56,376 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:08:44,876 - __main__ - INFO - ==================================================
+2025-11-02 22:08:44,879 - __main__ - INFO - ==================================================
+2025-11-02 22:08:44,879 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:08:44,879 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:08:44,879 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:10:39,696 - __main__ - INFO - ==================================================
+2025-11-02 22:10:39,698 - __main__ - INFO - ==================================================
+2025-11-02 22:10:39,699 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:10:39,699 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:10:39,699 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:24:05,470 - __main__ - INFO - ==================================================
+2025-11-02 22:24:05,473 - __main__ - INFO - ==================================================
+2025-11-02 22:24:05,473 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:24:05,473 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:24:05,473 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:32:13,059 - __main__ - INFO - ==================================================
+2025-11-02 22:32:13,092 - __main__ - INFO - ==================================================
+2025-11-02 22:32:13,092 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:32:13,092 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:32:13,092 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:37:09,117 - __main__ - INFO - ==================================================
+2025-11-02 22:37:09,120 - __main__ - INFO - ==================================================
+2025-11-02 22:37:09,120 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:37:09,120 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:37:09,120 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:49:24,836 - __main__ - INFO - ==================================================
+2025-11-02 22:49:24,887 - __main__ - INFO - ==================================================
+2025-11-02 22:49:24,888 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:49:24,891 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:49:24,891 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:52:20,433 - __main__ - INFO - ==================================================
+2025-11-02 22:52:20,436 - __main__ - INFO - ==================================================
+2025-11-02 22:52:20,436 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:52:20,436 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:52:20,436 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:55:37,521 - __main__ - INFO - ==================================================
+2025-11-02 22:55:37,550 - __main__ - INFO - ==================================================
+2025-11-02 22:55:37,550 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:55:37,551 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:55:37,551 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:57:43,411 - __main__ - INFO - ==================================================
+2025-11-02 22:57:43,414 - __main__ - INFO - ==================================================
+2025-11-02 22:57:43,414 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:57:43,414 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:57:43,414 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 22:58:59,489 - __main__ - INFO - ==================================================
+2025-11-02 22:58:59,492 - __main__ - INFO - ==================================================
+2025-11-02 22:58:59,492 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 22:58:59,492 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 22:58:59,492 - __main__ - INFO - Tkinter version: 8.6
+2025-11-02 23:00:51,527 - __main__ - INFO - ==================================================
+2025-11-02 23:00:51,529 - __main__ - INFO - ==================================================
+2025-11-02 23:00:51,529 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-02 23:00:51,529 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-02 23:00:51,529 - __main__ - INFO - Tkinter version: 8.6
+2025-11-03 20:15:25,812 - __main__ - INFO - ==================================================
+2025-11-03 20:15:25,815 - __main__ - INFO - ==================================================
+2025-11-03 20:15:25,815 - __main__ - INFO - Python version: 3.13.8 (tags/v3.13.8:a15ae61, Oct  7 2025, 12:34:25) [MSC v.1944 64 bit (AMD64)]
+2025-11-03 20:15:25,815 - __main__ - INFO - Current directory: E:\QuanLyKhachSan_Python.Nhom6.DH24TH2_Nhom2_ToTH1-main222
+2025-11-03 20:15:25,815 - __main__ - INFO - Tkinter version: 8.6
