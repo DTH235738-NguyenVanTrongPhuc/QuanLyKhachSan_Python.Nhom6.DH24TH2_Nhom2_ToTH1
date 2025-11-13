@@ -50,6 +50,18 @@ class CustomerView:
         # --- Các nút chức năng ---
         frame_btn = tk.Frame(self.tab)
         frame_btn.pack(pady=5)
+        frame_search = tk.LabelFrame(self.tab, text="Tìm kiếm nhân viên")
+        frame_search.pack(padx=10, pady=5, fill="x")
+
+        tk.Label(frame_search, text="Từ khóa:").grid(row=0, column=0, padx=5, pady=5)
+        self.entry_search = tk.Entry(frame_search, width=30)
+        self.entry_search.grid(row=0, column=1, padx=5, pady=5)
+
+        tk.Button(frame_search, text="Tìm", bg="#009688", fg="white", width=10,
+                  command=self.search_customer).grid(row=0, column=2, padx=5, pady=5)
+
+        tk.Button(frame_search, text="Hiển thị tất cả", bg="#795548", fg="white", width=15,
+                  command=self.refresh_data).grid(row=0, column=3, padx=5, pady=5)
 
         buttons = [
             ("Thêm", self.add_customer, "#4CAF50"),
@@ -170,6 +182,40 @@ class CustomerView:
             except Exception as e:
                 print("❌ Lỗi delete_customer:", e)
                 messagebox.showerror("Lỗi", f"Không thể xóa khách hàng: {e}")
+
+
+    def search_customer(self):
+        keyword = self.entry_search.get().strip()
+        if not keyword:
+            messagebox.showwarning("Cảnh báo", "Vui lòng nhập từ khóa tìm kiếm")
+            return
+
+        # Xóa dữ liệu cũ
+        for i in self.tree.get_children():
+            self.tree.delete(i)
+
+        cur = self.db.get_cursor()
+        query = """
+            SELECT makh, hoten, sdt, cmnd, ngaytao
+            FROM khachhang
+            WHERE makh LIKE ? OR hoten LIKE ? OR cmnd LIKE ? 
+            ORDER BY makh
+        """
+        kw = f"%{keyword}%"
+        cur.execute(query, (kw, kw, kw))
+
+        rows = cur.fetchall()
+        if not rows:
+            messagebox.showinfo("Kết quả", "Không tìm thấy nhân viên nào phù hợp.")
+            return
+
+        for row in rows:
+            clean_row = []
+            for val in row:
+                if hasattr(val, "strftime"):
+                    val = val.strftime("%Y-%m-%d")
+                clean_row.append(val)
+            self.tree.insert("", tk.END, values=clean_row)
 
     # ----------------- TIỆN ÍCH -----------------
 

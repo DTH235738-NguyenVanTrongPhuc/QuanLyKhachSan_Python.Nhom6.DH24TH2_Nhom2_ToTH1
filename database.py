@@ -97,6 +97,23 @@ class Database:
                 trangthai NVARCHAR(20) DEFAULT N'Active',
                 ngaytao DATETIME DEFAULT GETDATE()
             )
+            ''',
+            '''
+                IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='thanhtoan' AND xtype='U')
+            CREATE TABLE thanhtoan (
+        mathanhtoan VARCHAR(50) PRIMARY KEY,             -- Mã thanh toán (PK)
+        madat VARCHAR(50) FOREIGN KEY REFERENCES datphong(madat),  -- Liên kết đặt phòng
+        makh VARCHAR(50) FOREIGN KEY REFERENCES khachhang(makh),    -- Liên kết khách hàng
+        maphong VARCHAR(50) FOREIGN KEY REFERENCES phong(maphong),  -- Liên kết phòng
+        maloai VARCHAR(50) FOREIGN KEY REFERENCES loaiphong(maloai),-- Loại phòng
+        manv VARCHAR(50) FOREIGN KEY REFERENCES nhanvien(maso),     -- Nhân viên thanh toán
+        ngaydat DATE,                    -- Ngày đặt (lấy từ form đặt phòng)
+        ngaytra DATE,                    -- Ngày trả (lấy từ form đặt phòng)
+        tongtien DECIMAL(18,2),          -- Tổng tiền (lấy từ form đặt phòng)
+        hinhthucthanhtoan NVARCHAR(50),  -- Tiền mặt / thẻ / chuyển khoản
+        ngaythanhtoan DATETIME DEFAULT GETDATE(),  -- Ngày lập hóa đơn
+        ghichu NVARCHAR(MAX)             -- Ghi chú thêm
+        ) 
             '''
         ]
 

@@ -74,18 +74,32 @@ class EmployeeView:
         # Các nút chức năng
         frame_btn = tk.Frame(self.tab)
         frame_btn.pack(pady=5)
+        frame_search = tk.LabelFrame(self.tab, text="Tìm kiếm nhân viên")
+        frame_search.pack(padx=10, pady=5, fill="x")
 
+        tk.Label(frame_search, text="Từ khóa:").grid(row=0, column=0, padx=5, pady=5)
+        self.entry_search = tk.Entry(frame_search, width=30)
+        self.entry_search.grid(row=0, column=1, padx=5, pady=5)
+
+        tk.Button(frame_search, text="Tìm", bg="#009688", fg="white", width=10,
+                  command=self.search_employee).grid(row=0, column=2, padx=5, pady=5)
+
+        tk.Button(frame_search, text="Hiển thị tất cả", bg="#795548", fg="white", width=15,
+                  command=self.refresh_data).grid(row=0, column=3, padx=5, pady=5)
         buttons = [
             ("Thêm", self.add_employee, "#4CAF50"),
             ("Sửa", self.edit_employee, "#2196F3"),
             ("Lưu", self.save_employee, "#FF9800"),
             ("Xóa", self.delete_employee, "#f44336"),
             ("Làm mới", self.refresh_data, "#607D8B")
+            
+
         ]
         for i, (text, command, color) in enumerate(buttons):
             btn = tk.Button(frame_btn, text=text, width=8, bg=color, fg="white",
                             command=lambda c=command, t=text: self.button_action(c, t))
             btn.grid(row=0, column=i, padx=5)
+
 
     # ------------------------------------------------------------
     def check_role(self, action_name):
@@ -95,7 +109,7 @@ class EmployeeView:
         return True
 
     def button_action(self, func, name):
-        if name in ["Thêm", "Sửa", "Xóa", "Lưu"] and not self.check_role(name.lower()):
+        if name in ["Thêm", "Sửa", "Xóa", "Lưu","tiềm kiếm"] and not self.check_role(name.lower()):
             return
         func()
 
@@ -200,6 +214,39 @@ class EmployeeView:
             messagebox.showinfo("Thành công", "Cập nhật thông tin thành công")
         except Exception as e:
             messagebox.showerror("Lỗi", f"Không thể cập nhật: {str(e)}")
+
+    def search_employee(self):
+        keyword = self.entry_search.get().strip()
+        if not keyword:
+            messagebox.showwarning("Cảnh báo", "Vui lòng nhập từ khóa tìm kiếm")
+            return
+
+        # Xóa dữ liệu cũ
+        for i in self.tree.get_children():
+            self.tree.delete(i)
+
+        cur = self.db.get_cursor()
+        query = """
+            SELECT maso, holot, ten, phai, ngaysinh, chucvu, email
+            FROM nhanvien
+            WHERE maso LIKE ? OR holot LIKE ? OR ten LIKE ? OR chucvu LIKE ?
+            ORDER BY maso
+        """
+        kw = f"%{keyword}%"
+        cur.execute(query, (kw, kw, kw, kw))
+
+        rows = cur.fetchall()
+        if not rows:
+            messagebox.showinfo("Kết quả", "Không tìm thấy nhân viên nào phù hợp.")
+            return
+
+        for row in rows:
+            clean_row = []
+            for val in row:
+                if hasattr(val, "strftime"):
+                    val = val.strftime("%Y-%m-%d")
+                clean_row.append(val)
+            self.tree.insert("", tk.END, values=clean_row)
 
     # ------------------------------------------------------------
     def clear_form(self):

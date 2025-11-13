@@ -11,6 +11,8 @@ from views.customer_view import CustomerView
 from views.room_view import RoomView
 from views.booking_view import BookingView
 from views.login_view import LoginView
+from views.room_l import LoaiPhongView  # tên file chứa class
+from views.payment import ThanhToanView
 from config import APP_CONFIG
 
 # ! THIẾT LẬP LOGGING VỚI MỨC ĐỘ CHI TIẾT CAO
@@ -63,6 +65,8 @@ class HotelManagementApp:
             self.customer_tab = None
             self.room_tab = None
             self.booking_tab = None
+            self.rooml_tap=None
+            self.payment_tab=None
             
             # ! TẠO UI VỚI TAB ĐĂNG NHẬP ĐẦU TIÊN
             self.create_ui()
@@ -93,12 +97,19 @@ class HotelManagementApp:
             self.customer_tab = CustomerView(self.notebook, self.db)
             self.room_tab = RoomView(self.notebook, self.db, None)
             self.booking_tab = BookingView(self.notebook, self.db, None, None)
+            self.rooml_tap=LoaiPhongView(self.notebook,self.db)
+            self.payment_tab = ThanhToanView(self.notebook, self.db)
+            
 
             # ! THÊM CÁC TAB NHƯNG VÔ HIỆU HÓA CHÚNG
             self.notebook.add(self.employee_tab.tab, text="Nhân viên")
             self.notebook.add(self.customer_tab.tab, text="Khách hàng")
             self.notebook.add(self.room_tab.tab, text="Quản lý phòng")
             self.notebook.add(self.booking_tab.tab, text="Đặt phòng")
+            self.notebook.add(self.rooml_tap.tab, text="Loai Phòng")
+            self.notebook.add(self.payment_tab.tab, text="Thanh Toán")
+
+           
 
             # ! BAN ĐẦU VÔ HIỆU HÓA TẤT CẢ TAB TRỪ ĐĂNG NHẬP
             self.update_tab_access()
@@ -186,7 +197,7 @@ class HotelManagementApp:
         is_logged_in = self.current_user_id is not None
         
         # ! LẤY TẤT CẢ TÊN TAB
-        tab_names = ["Đăng nhập", "Nhân viên", "Khách hàng", "Quản lý phòng", "Đặt phòng"]
+        tab_names = ["Đăng nhập", "Nhân viên", "Khách hàng", "Quản lý phòng", "Đặt phòng","Loai Phòng","Thanh Toán"]
         
         # ! BẬT TẤT CẢ TAB NẾU ĐÃ ĐĂNG NHẬP, NGƯỢC LẠI CHỈ BẬT TAB ĐĂNG NHẬP
         for i, tab_name in enumerate(tab_names):
