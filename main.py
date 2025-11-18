@@ -250,7 +250,7 @@ class HotelManagementApp:
         for widget in self.root.winfo_children():
             if isinstance(widget, tk.Frame) and hasattr(widget, '_is_user_frame'):
                 widget.destroy()
-        
+            
         # ! CẬP NHẬT VIEWS VÀ TRUY CẬP TAB
         self.update_views_with_user()
         self.update_tab_access()

@@ -49,7 +49,7 @@ class LoginView:
             .grid(row=0, column=1, padx=10)
 
         # Ghi chú
-        tk.Label(self.tab, text="Tài khoản mặc định: admin@khachsan.com / admin123",
+        tk.Label(self.tab, text="",
                  bg="#ecf0f1", fg="gray", font=("Arial", 9, "italic"))\
             .pack(side="bottom", pady=10)
 

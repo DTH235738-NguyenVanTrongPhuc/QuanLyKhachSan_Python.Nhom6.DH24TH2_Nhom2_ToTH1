@@ -38,7 +38,7 @@ class Database:
             self.connection = None
             return None
 
-    # ---------------------------------------------------------
+    # --------------------Tạo bảng-------------------------------------
     def create_tables(self):
         """Tạo các bảng nếu chưa có"""
         cur = self.connection.cursor()
@@ -63,6 +63,7 @@ class Database:
                 makh VARCHAR(50) PRIMARY KEY,
                 hoten NVARCHAR(100),
                 sdt NVARCHAR(20),
+                phai NVARCHAR(10),
                 cmnd NVARCHAR(20),
                 ngaytao DATE DEFAULT GETDATE()
             )
@@ -116,10 +117,10 @@ class Database:
         ) 
             '''
         ]
-
+   # Thực thi từng câu lệnh tạo bảng
         for sql in tables:
             cur.execute(sql)
-        self.connection.commit()
+        self.connection.commit() # Lưu các thay đổi
         logger.info(" Hoàn tất tạo bảng!")
 
     # ---------------------------------------------------------
@@ -177,13 +178,13 @@ class Database:
 
     # ---------------------------------------------------------
     # KHÁCH HÀNG
-    def them_khachhang(self, makh, hoten, sdt, cmnd):
+    def them_khachhang(self, makh, hoten, sdt, cmnd, phai):
         try:
             cur = self.get_cursor()
             cur.execute("""
-                INSERT INTO khachhang (makh, hoten, sdt, cmnd)
+                INSERT INTO khachhang (makh, hoten, sdt, cmnd, phai)
                 VALUES (?, ?, ?, ?)
-            """, (makh, hoten, sdt, cmnd))
+            """, (makh, hoten, sdt, cmnd,phai))
             self.commit()
             logger.info(f" Đã thêm khách hàng {hoten}")
         except Exception as e:
@@ -248,3 +249,14 @@ class Database:
         except Exception as e:
             logger.error(f" Lỗi cập nhật đặt phòng: {e}")
             messagebox.showerror("Lỗi", f"Không thể cập nhật đặt phòng:\n{e}")
+
+   
+    def xoa_datphong(self, madat):
+        try:
+            cur = self.get_cursor()
+            cur.execute("DELETE FROM datphong WHERE madat=?", (madat,))
+            self.commit()
+            logger.info(f"Đã xóa đặt phòng {madat}")
+        except Exception as e:
+            logger.error(f"Lỗi xóa đặt phòng: {e}")
+            messagebox.showerror("Lỗi", f"Không thể xóa đặt phòng:\n{e}")

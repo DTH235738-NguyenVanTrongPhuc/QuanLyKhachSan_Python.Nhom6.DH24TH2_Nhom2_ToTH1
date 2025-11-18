@@ -13,7 +13,7 @@ class BookingView:
         self.create_widgets()
         self.load_data()
         self.refresh_comboboxes()
-
+#-------- Create Widgets ---------
     def create_widgets(self):
         frame_info = tk.LabelFrame(self.tab, text="Thông tin đặt phòng")
         frame_info.pack(padx=10, pady=10, fill="x")
@@ -60,7 +60,7 @@ class BookingView:
             self.tree.heading(col, text=headings[col])
         self.tree.pack(padx=10, pady=10, fill="both", expand=True)
         self.tree.bind("<<TreeviewSelect>>", self.on_select)
-
+# ! Frame chứa các nút chức năng
         frame_btn = tk.Frame(self.tab)
         frame_btn.pack(pady=5)
         buttons = [
@@ -75,6 +75,7 @@ class BookingView:
                       command=command).grid(row=0, column=i, padx=5)
 
     def refresh_comboboxes(self):
+          # ! Load dữ liệu cho combobox khách hàng và phòng trống
         cur = self.db.get_cursor()
         cur.execute("SELECT makh, hoten FROM khachhang ORDER BY hoten")
         self.cbb_kh["values"] = [f"{row[0]} - {row[1]}" for row in cur.fetchall()]
@@ -90,6 +91,7 @@ class BookingView:
         self.cbb_phong["values"] = [f"{row[0]} - {row[1]} ({row[2]:,} VND)" for row in rooms]
 
     def load_data(self):
+         # ! Load danh sách đặt phòng vào Treeview
         for i in self.tree.get_children():
             self.tree.delete(i)
         cur = self.db.get_cursor()
@@ -114,6 +116,7 @@ class BookingView:
 
     def add_booking(self):
         try:
+                # ! Kiểm tra dữ liệu đầu vào 
             if not all([self.entry_madat.get(), self.cbb_kh.get(), self.cbb_phong.get()]):
                 messagebox.showwarning("Cảnh báo", "Vui lòng điền đầy đủ thông tin")
                 return
@@ -190,21 +193,43 @@ class BookingView:
 
     def delete_booking(self):
         sel = self.tree.selection()
-        if not sel: return
-        madat = self.tree.item(sel)["values"][0]
-        maphong = self.tree.item(sel)["values"][3]
+        if not sel:
+            messagebox.showwarning("Cảnh báo", "Vui lòng chọn đặt phòng cần xóa")
+            return
+
+        v = self.tree.item(sel)["values"]
+        madat = str(v[0]).strip()
+        maphong = str(v[3]).strip()
+
+        if not madat:
+            messagebox.showerror("Lỗi", "Mã đặt phòng bị rỗng! Không thể xóa.")
+            return
+
         if messagebox.askyesno("Xác nhận", f"Bạn có chắc muốn xóa đặt phòng {madat}?"):
             try:
                 cur = self.db.get_cursor()
-                cur.execute("UPDATE datphong SET trangthai=N'Cancelled' WHERE madat=?", (madat,))
-                cur.execute("UPDATE phong SET trangthai=N'Trống' WHERE maphong=?", (maphong,))
+
+                # 1. Cập nhật trạng thái phòng về Trống
+                cur.execute("UPDATE phong SET trangthai = N'Trống' WHERE maphong = ?", (maphong,))
+
+                # 2. XÓA DỮ LIỆU ĐẶT PHÒNG THẬT SỰ TRONG SQL
+                cur.execute("DELETE FROM datphong WHERE madat = ?", (madat,))
+
+                # 3. Lưu thay đổi
                 self.db.commit()
+
+                messagebox.showinfo("Thành công", "Xóa đặt phòng thành công")
+
+                # Refresh giao diện
                 self.load_data()
                 self.refresh_comboboxes()
                 self.clear_form()
-                messagebox.showinfo("Thành công", "Xóa đặt phòng thành công")
+
             except Exception as e:
                 messagebox.showerror("Lỗi", f"Không thể xóa đặt phòng: {str(e)}")
+
+
+
 
     def clear_form(self):
         self.entry_madat.delete(0, tk.END)
@@ -213,11 +238,12 @@ class BookingView:
         self.cbb_phong.set("")
         self.date_dat.set_date(datetime.now())
         self.date_tra.set_date(datetime.now())
-
+ # ! Làm mới dữ liệu Treeview và combobox
     def refresh_data(self):
         self.load_data()
         self.refresh_comboboxes()
         self.clear_form()
 
     def on_select(self, event):
+        # ! Khi chọn hàng trong Treeview, hiển thị lên form để sửa
         self.edit_booking()

@@ -28,16 +28,25 @@ class CustomerView:
         tk.Label(frame_info, text="CMND").grid(row=1, column=2, padx=5)
         self.entry_cmnd = tk.Entry(frame_info, width=15)
         self.entry_cmnd.grid(row=1, column=3, padx=5)
+        self.gender_var = tk.StringVar(value="Nam")
+
+        tk.Label(frame_info, text="Giới tính").grid(row=1, column=4, padx=5, pady=5)
+        self.gender_var = tk.StringVar(value="Nam")
+        tk.Radiobutton(frame_info, text="Nam", variable=self.gender_var, value="Nam").grid(row=1, column=5, sticky="w")
+        tk.Radiobutton(frame_info, text="Nữ", variable=self.gender_var, value="Nữ").grid(row=1, column=6, sticky="w")
+
+
 
         # --- Bảng dữ liệu ---
-        columns = ("makh", "hoten", "sdt", "cmnd")
+        columns = ("makh", "hoten", "sdt", "cmnd","phai")
         self.tree = ttk.Treeview(self.tab, columns=columns, show="headings", height=15)
 
         headings = {
             "makh": "MÃ KH",
             "hoten": "HỌ TÊN",
             "sdt": "SĐT",
-            "cmnd": "CMND"
+            "cmnd": "CMND",
+            "phai": "GIỚI TÍNH"
         }
 
         for col in columns:
@@ -78,26 +87,22 @@ class CustomerView:
     # ----------------- DATABASE FUNCTIONS -----------------
 
     def load_data(self):
-        """Tải dữ liệu từ SQL Server và hiển thị sạch sẽ"""
-        # Xóa dữ liệu cũ
         for i in self.tree.get_children():
             self.tree.delete(i)
 
         try:
             cur = self.db.get_cursor()
-            cur.execute("SELECT makh, hoten, sdt, cmnd FROM khachhang")
+            cur.execute("SELECT makh, hoten, sdt, cmnd, phai FROM khachhang")
             rows = cur.fetchall()
 
             for row in rows:
-                # Làm sạch giá trị: bỏ tuple lồng, format ngày, vv
-                clean_row = tuple(
-                    val[0] if isinstance(val, tuple) else val for val in row
-                )
+                clean_row = tuple(val[0] if isinstance(val, tuple) else val for val in row)
                 self.tree.insert("", tk.END, values=clean_row)
 
         except Exception as e:
             print("❌ Lỗi load_data:", e)
             messagebox.showerror("Lỗi", f"Không thể tải dữ liệu: {e}")
+
     def add_customer(self):
         """Thêm khách hàng mới"""
         try:
@@ -106,9 +111,9 @@ class CustomerView:
                 return
 
             cur = self.db.get_cursor()
-            sql = "INSERT INTO khachhang (makh, hoten, sdt, cmnd) VALUES (?, ?, ?, ?)"
+            sql = "INSERT INTO khachhang (makh, hoten, sdt, cmnd, phai) VALUES (?, ?, ?, ?, ?)"
             values = (self.entry_makh.get(), self.entry_hoten.get(),
-                      self.entry_sdt.get(), self.entry_cmnd.get())
+                      self.entry_sdt.get(), self.entry_cmnd.get(),self.gender_var.get())
 
             print("🔹 SQL:", sql)
             print("🔹 Values:", values)
@@ -138,17 +143,19 @@ class CustomerView:
         self.entry_sdt.insert(0, v[2])
         self.entry_cmnd.delete(0, tk.END)
         self.entry_cmnd.insert(0, v[3])
+        self.gender_var.set(v[4])
 
     def save_customer(self):
-        """Lưu thay đổi"""
         try:
             cur = self.db.get_cursor()
-            sql = "UPDATE khachhang SET hoten=?, sdt=?, cmnd=? WHERE makh=?"
-            values = (self.entry_hoten.get(), self.entry_sdt.get(),
-                      self.entry_cmnd.get(), self.entry_makh.get())
-
-            print("🔹 SQL:", sql)
-            print("🔹 Values:", values)
+            sql = "UPDATE khachhang SET hoten=?, sdt=?, cmnd=?, phai=? WHERE makh=?"
+            values = (
+                self.entry_hoten.get(),
+                self.entry_sdt.get(),
+                self.entry_cmnd.get(),
+                self.gender_var.get(),   # thêm giới tính
+                self.entry_makh.get()    # WHERE makh=?
+            )
 
             cur.execute(sql, values)
             self.db.commit()
@@ -225,6 +232,7 @@ class CustomerView:
         self.entry_hoten.delete(0, tk.END)
         self.entry_sdt.delete(0, tk.END)
         self.entry_cmnd.delete(0, tk.END)
+        
 
     def refresh_data(self):
         self.load_data()
