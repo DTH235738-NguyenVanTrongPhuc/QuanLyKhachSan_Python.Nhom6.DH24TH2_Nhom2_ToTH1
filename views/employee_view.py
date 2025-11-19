@@ -7,7 +7,7 @@ class EmployeeView:
     def __init__(self, parent, db, current_user_role=None):
         self.db = db
         self.current_user_role = current_user_role
-        self.tab = ttk.Frame(parent)
+        self.tab = ttk.Frame(parent) #Tạo một Tab cho giao diện nhân viên
         self.create_widgets()
         self.load_data()
 
@@ -15,7 +15,7 @@ class EmployeeView:
     def create_widgets(self):
         # Thông tin nhân viên
         frame_info = tk.LabelFrame(self.tab, text="Thông tin nhân viên")
-        frame_info.pack(padx=10, pady=10, fill="x")
+        frame_info.pack(padx=10, pady=10, fill="both")
 
         tk.Label(frame_info, text="Mã số").grid(row=0, column=0, padx=5, pady=5)
         self.entry_maso = tk.Entry(frame_info, width=10)
@@ -68,7 +68,7 @@ class EmployeeView:
             self.tree.heading(col, text=headings[col])
             self.tree.column(col, width=110)
 
-        self.tree.pack(padx=10, pady=10, fill="both", expand=True)
+        self.tree.pack(padx=10, pady=10, fill="x", expand=True)
         self.tree.bind("<<TreeviewSelect>>", self.on_select)
 
         # Các nút chức năng
@@ -78,14 +78,14 @@ class EmployeeView:
         frame_search.pack(padx=10, pady=5, fill="x")
 
         tk.Label(frame_search, text="Từ khóa:").grid(row=0, column=0, padx=5, pady=5)
-        self.entry_search = tk.Entry(frame_search, width=30)
+        self.entry_search = tk.Entry(frame_search, width=30)#Tìm kiếm nhân viên 
         self.entry_search.grid(row=0, column=1, padx=5, pady=5)
 
         tk.Button(frame_search, text="Tìm", bg="#009688", fg="white", width=10,
                   command=self.search_employee).grid(row=0, column=2, padx=5, pady=5)
 
         tk.Button(frame_search, text="Hiển thị tất cả", bg="#795548", fg="white", width=15,
-                  command=self.refresh_data).grid(row=0, column=3, padx=5, pady=5)
+                  command=self.refresh_data).grid(row=0, column=3, padx=5, pady=5)# load lại toàn bộ dữ liệu
         buttons = [
             ("Thêm", self.add_employee, "#4CAF50"),
             ("Sửa", self.edit_employee, "#2196F3"),
@@ -97,7 +97,7 @@ class EmployeeView:
         ]
         for i, (text, command, color) in enumerate(buttons):
             btn = tk.Button(frame_btn, text=text, width=8, bg=color, fg="white",
-                            command=lambda c=command, t=text: self.button_action(c, t))
+                            command=lambda c=command, t=text: self.button_action(c, t))#đều chạy qua hàm button_action để kiểm tra phân quyền
             btn.grid(row=0, column=i, padx=5)
 
 
@@ -115,7 +115,7 @@ class EmployeeView:
 
     # ------------------------------------------------------------
     def load_data(self):
-        for i in self.tree.get_children():
+        for i in self.tree.get_children():        #lấy toàn bộ dòng (row) trong TreeView
             self.tree.delete(i)
         cur = self.db.get_cursor()
         cur.execute("SELECT maso, holot, ten, phai, ngaysinh, chucvu, email FROM nhanvien")
@@ -136,7 +136,7 @@ class EmployeeView:
             messagebox.showwarning("Cảnh báo", "Vui lòng điền đầy đủ thông tin")
             return
         try:
-            cur = self.db.get_cursor()
+            cur = self.db.get_cursor()#chạy lệnh SQL.
             cur.execute(
                 "INSERT INTO nhanvien (maso, holot, ten, phai, ngaysinh, chucvu, email, password) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
                 (self.entry_maso.get(), self.entry_holot.get(), self.entry_ten.get(),

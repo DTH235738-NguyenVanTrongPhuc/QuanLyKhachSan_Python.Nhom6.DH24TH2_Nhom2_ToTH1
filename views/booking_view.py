@@ -13,7 +13,7 @@ class BookingView:
         self.create_widgets()
         self.load_data()
         self.refresh_comboboxes()
-#-------- Create Widgets ---------
+    # -------- Create Widgets ---------
     def create_widgets(self):
         frame_info = tk.LabelFrame(self.tab, text="Thông tin đặt phòng")
         frame_info.pack(padx=10, pady=10, fill="x")

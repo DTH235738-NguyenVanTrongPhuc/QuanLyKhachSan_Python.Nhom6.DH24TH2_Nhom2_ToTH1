@@ -43,6 +43,7 @@ class HotelManagementApp:
             screen_height = self.root.winfo_screenheight()
             logger.info(f"Kích thước màn hình: {screen_width}x{screen_height}")
             
+            
             center_window(self.root, APP_CONFIG['window_width'], APP_CONFIG['window_height'])
             self.root.resizable(True, True)
             
@@ -113,7 +114,7 @@ class HotelManagementApp:
 
             # ! BAN ĐẦU VÔ HIỆU HÓA TẤT CẢ TAB TRỪ ĐĂNG NHẬP
             self.update_tab_access()
-
+            
             logger.info("Đã tạo giao diện chính thành công")
             
         except Exception as e:
